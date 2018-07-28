@@ -24,8 +24,8 @@ The tutorial is split into three parts.
 
 I furthermore compiled this [list of tutorials and documentations](./Where_to_go_next.md) which go more in-depth on reproducible research.
 
-## About this website and myself
-This website was part of my thesis for obtaining a Master of Arts in Economics (major) and Data Science (minor) at the University of Zurich. A second part was an evaluation of the effectiveness of a crime prevention program in Chicago. You can find an overview of the analysis on [this website](https://binste.github.io/chicago_safepassage_evaluation/). The code in the corresponding GitHub repository can be seen as an example of an application of the practices advertised in this guide.
+## About
+This website was part of my thesis for obtaining a Master of Arts in Economics (major) and Data Science (minor) at the University of Zurich. A second part was an evaluation of the effectiveness of a crime prevention program in Chicago. You can find an overview of the analysis on [this website](https://binste.github.io/chicago_safepassage_evaluation/). The code in the corresponding [GitHub repository](https://github.com/binste/chicago_safepassage_evaluation) can be seen as an example of an application of the practices advertised in this guide. Throughout the guide you will find this symbol ![example_icon](./_figures/example_icon.png), which will take you to an example of the policy evaluation which shows the advertised practise.
 
 # Reproducible research
 [Here](./Reproducible_research.md) you can find some information on what reproducible research is and why it is important, not only for others but also for yourself. Should you already be convinced just skip it and jump right into the [Preparation and Setup](./1_Preparation/) section.
