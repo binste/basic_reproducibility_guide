@@ -7,9 +7,6 @@ header_pages:
   - 2_During_the_analysis/index.md
   - 3_Sharing_your_work/index.md
 
-exclude:
-  - README.md
-
 markdown: kramdown
 
 github_username: binste
