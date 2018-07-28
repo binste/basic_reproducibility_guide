@@ -12,3 +12,6 @@ Thumbs.db
 ##########
 _site/*
 *.lock
+
+# TODO: Can be removed before submitting to University
+Reproducible_research.md
