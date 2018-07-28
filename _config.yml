@@ -1,0 +1,16 @@
+theme: minima
+title: "A Basic Guide to Reproducible Research"
+author: "Stefan Binder"
+
+header_pages:
+  - 1_Preparation/index.md
+  - 2_During_the_analysis/index.md
+  - 3_Sharing_your_work/index.md
+
+exclude:
+  - README.md
+
+markdown: kramdown
+
+github_username: binste
+linkedin_username: stefan-binder-36b013130
