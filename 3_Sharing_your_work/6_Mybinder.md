@@ -1,9 +1,6 @@
 ---
 title: Provide a free no-setup-needed computational environment
 ---
-* TOC
-{:toc}
-
 This is something I am really excited about. If you have used either Jupyter or R notebooks for your analysis, the repository is on GitHub, and you have created an environment.yml file as previously explained, there exists a really easy, cool, and free way to let everyone run these notebooks online without any setup from there side. Others can then not only rerun your analysis but also expand on it and try out new things. You might even have already used this service called [mybinder.org](https://mybinder.org/){:target="_blank"} if you clicked on the [Jupyter Try link](http://jupyter.org/try){:target="_blank"} in the beginning of this tutorial. A prominent example is the {:target="_blank"}. Just click on the `launch binder` batch on the GitHub repository and you'll be able to rerun their analysis in your browser.
 
 ### Setting up mybinder.org
