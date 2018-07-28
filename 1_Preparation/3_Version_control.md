@@ -1,9 +1,6 @@
 ---
 title: Set up version control
 ---
-* TOC
-{:toc}
-
 A prominent option for a version control system is [Git](https://git-scm.com/){:target="_blank"}. It allows to easily keep track of all the changes over time you or your collaboraters make to text based files (text documents, code files, etc.). Although this might be not be per se a requirement for reproducibility, it most certainly helps in achieving it. It let's you try out different versions of an analysis and still revert back to a previous version and recover the code that produced the main results in the first place. Furthermore, it can save yourself a lot of time down the line when you want to track down a bug and you are not sure when it got introduced or how the code looked before you changed that one buggy function.
 
 Additionally to the local copy of your project, you can host it online, using a free web service such as [GitHub](https://www.github.com){:target="_blank"}. This can serve as a backup, but also allows for easier collaboration with others.

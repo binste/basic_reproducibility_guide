@@ -1,9 +1,6 @@
 ---
 title: Programming environment
 ---
-* TOC
-{:toc}
-
 ### Conda - Package manager
 If you decided on doing your project in Python or R, I recommend to use the free package manager conda. It offers easy installation of most of the libraries you'll ever need. Furthermore it allows to create separate environments (i.e. installations of Python or R) for each of your projects. This helps in avoiding version conflicts of packages between projects, as well as makes it easier to share the specifications of your programming environment with others. Forget about making a list of all packages and their version numbers, conda can do this for you.
 
