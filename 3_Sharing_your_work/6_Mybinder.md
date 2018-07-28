@@ -14,6 +14,6 @@ Another option for others is to use [repo2docker](https://github.com/jupyter/rep
 For further information on mybinder.org, the [official documentation](https://mybinder.readthedocs.io/en/latest/#binder-documentation){:target="_blank"} is a great place to start. It contains [sample repositories](https://mybinder.readthedocs.io/en/latest/#sample-repositories){:target="_blank"} as well as a [FAQ](https://mybinder.readthedocs.io/en/latest/faq.html){:target="_blank"} section.
 
 ## Publish repository on GitHub
-You have finished your analysis, added a LICENSE file, and maybe even added a mybinder badge to the README file? Don't forget to make your repository accessible for everyone. Go to the settings page of your GitHub.com repository, scroll all the way down and click on the "Make this repository public" button.
+You have finished your analysis, added a LICENSE file, and maybe even added a mybinder badge to the README file? [![example](../figures/example_icon.png){:height="36px" width="36px"}](https://github.com/binste/chicago_safepassage_evaluation/blob/master/README.md){:target="_blank"} Don't forget to make your repository accessible to everyone. Go to the settings page of your GitHub.com repository, scroll all the way down and click on the "Make this repository public" button.
 
 [Back to the table of content](./index.md)

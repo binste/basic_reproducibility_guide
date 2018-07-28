@@ -34,10 +34,11 @@ A minimal folder structure is proposed in the following. It heavily leans on [th
 │   │
 └   └── other folders  <- Depending on your analysis you might want additional folders such as model, visualization, analysis, etc.
 ```
-As an example of this folder structure, see [the example project](https://github.com/binste/chicago_safepassage_evaluation){:target="_blank"}.
+[![example](../figures/example_icon.png){:height="36px" width="36px"}](https://github.com/binste/chicago_safepassage_evaluation){:target="_blank"}
 
 A good naming convention for your notebooks might be the following one, taken from the above mentioned cookie cutter template:
-"*A number (for ordering), the creator's initials, and a short `-` delimited description, e.g. `1.0-jqp-initial-data-exploration`."*"
+"*A number (for ordering), the creator's initials, and a short `-` delimited description, e.g. `1.0-jqp-initial-data-exploration`."*
+[![example](../figures/example_icon.png){:height="36px" width="36px"}](https://github.com/binste/chicago_safepassage_evaluation/tree/master/notebooks/1_prepare_data){:target="_blank"}
 
 Although I strongly recommend a workflow focused on using notebooks for everything from downloading the data, preparing it, up to your final analysis/model, your personal workflow might differ and you might want to change the folder structure. However, at least try to adhere to the following points (partly inspired by [this post](http://kbroman.org/steps2rr/pages/organize.html){:target="_blank"}):
 

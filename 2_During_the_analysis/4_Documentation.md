@@ -15,9 +15,9 @@ As a minimum, it should briefly explain what the project is about, as well as pr
 XXX link to run_ipynb.py script!
 {% endcomment %}
 
+[![example](../figures/example_icon.png){:height="36px" width="36px"}](https://github.com/binste/chicago_safepassage_evaluation/blob/master/README.md){:target="_blank"}
+
 ## Add an environment.yml file
-
-
 To reproduce your results, others need to know what software and additional packages you used (and the respective version numbers). You can either specify this in the above discussed README file, or, if you used the package manager conda, you can automatically create an environment file which contains all the necessary information. This allows others to get the same Python or R installation with a single command.
 
 If you have created a new environment with conda for your project, activate it and then enter the following command:
@@ -30,11 +30,17 @@ This exports the specifications of your environment into a file called `environm
 conda env create -f environment.yml
 ```
 The name of the environment will be the same and is determined by the first line of the `environment.yml` file.
+{% comment %}
+Expand by information of deleting a lot of the content of the environment file...
+{% endcomment %}
+
+[![example](../figures/example_icon.png){:height="36px" width="36px"}](https://github.com/binste/chicago_safepassage_evaluation/blob/master/environment.yml){:target="_blank"}
 
 ## Data
 As already mentioned, if possible (and especially allowed) you want to provide not only your code but also the raw data used for the analysis. Should you not be able to upload your raw data but the data is available online for free, you should provide a notebook which automatically downloads the relevant data from the internet. To do this in Python you can use [this function](../help_snippets/download_function.md). If the data is not available online, provide an exact documentation of where you obtained what files, how you applied for them, and what were the costs. To speed up the documentation you could provide a screenshot of your `data/raw` folder.
 
 In any case it is good if you provide information on when you obtained the data and if applicable a version number.
+[![example](../figures/example_icon.png){:height="36px" width="36px"}](https://github.com/binste/chicago_safepassage_evaluation/blob/master/notebooks/0_download_data/0.0-binste-download-data.ipynb){:target="_blank"}
 
 ## Code
 Documenting your code is very important for others to be able to better and more easily understand it, as well as for yourself if you ever revisit code you have written in the past. This section shows examples of how you can write a general description of a script or notebook, document your functions as well as write inline comments.
@@ -85,6 +91,8 @@ def load_relevant_crimes(min_date,
         Dataframe containing loaded crimes
     """
 ```
+[![example](../figures/example_icon.png){:height="36px" width="36px"}](https://github.com/binste/chicago_safepassage_evaluation/blob/master/src/prepare_data/crime_database.py){:target="_blank"}
+
 The first line briefly summarizes the main purposes of the function. The following paragraph goes into more detail. The `Parameters` section names all function arguments (e.g. `min_date`), their type (e.g. `str`), if applicable additional information such as format or if it is an optional argument (mention what the default is!) as well as a explanation. The `Returns` section names the type of the returned object and a brief description.
 
 #### R

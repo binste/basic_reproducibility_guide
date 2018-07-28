@@ -35,5 +35,9 @@ If you opt for GitHub Desktop, you can find all informations for an easy setup a
 
 ## Data
 If you have the permission to do publish your raw data you can also put it into version control and upload it to GitHub. However, the single files must be below 100MB and the total repository should stay below 1GB. Should you not be able to upload your raw data (also for legal reasons), you can find tips on how to handle this in the section on documenting your project.
+{% comment %}
+Include link to example project?
+{% endcomment %}
+
 
 [Back to the table of content](./index.md)
