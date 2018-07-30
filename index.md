@@ -1,8 +1,7 @@
 ---
 title: "Overview"
 ---
-# ATTENTION: WORK IN PROGRESS
-
+**ATTENTION**: This is a work in progress and subject to major changes.
 
 
 This website presents a very basic workflow which makes your next data analysis reproducible by others. It tries to be the guide I'd have liked before doing my first empirical project during my studies in Economics at University.
@@ -25,7 +24,7 @@ The tutorial is split into three parts.
 I furthermore compiled this [list of tutorials and documentations](./Where_to_go_next.md) which go more in-depth on reproducible research.
 
 ## About
-This website was part of my thesis for obtaining a Master of Arts in Economics (major) and Data Science (minor) at the University of Zurich. A second part was an evaluation of the effectiveness of a crime prevention program in Chicago. You can find an overview of the analysis on [this website](https://binste.github.io/chicago_safepassage_evaluation/). The code in the corresponding [GitHub repository](https://github.com/binste/chicago_safepassage_evaluation) can be seen as an example of an application of the practices advertised in this guide. Throughout the guide you will find this symbol ![example](./figures/example_icon.png){: height="36px" width="36px"}, which will take you to an example of the policy evaluation which shows the advertised practise.
+This website is part of my thesis for obtaining a Master of Arts in Economics (major) and Data Science (minor) at the University of Zurich. The second part is an evaluation of the effectiveness of a crime prevention program in Chicago. You can find an overview of the analysis on [this website](https://binste.github.io/chicago_safepassage_evaluation/). The code in the corresponding [GitHub repository](https://github.com/binste/chicago_safepassage_evaluation) can be seen as an applied example for the practices advertised in this guide. Throughout the guide, the ![example](./figures/example_icon.png){: height="36px" width="36px"} icon will take you to an example from the above mentioned policy evaluation, which shows the advertised practises in action.
 
 # Reproducible research
-[Here](./Reproducible_research.md) you can find some information on what reproducible research is and why it is important, not only for others but also for yourself. Should you already be convinced just skip it and jump right into the [Preparation and Setup](./1_Preparation/) section.
+[Here](./Reproducible_research.md) you can find some information on what reproducible research is and why it is important, not only for others but also for yourself. Should you already be convinced just skip it and jump right into the first section of the guide.
