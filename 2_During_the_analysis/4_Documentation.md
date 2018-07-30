@@ -10,10 +10,7 @@ Remember, documentation is only useful if it is kept up to date! Otherwise, it m
 Always create a README file in the root directory of your project. This can be a markdown (.md) or (.txt) file.
 >**Note**: A readme file in the root directory gets automatically detected by GitHub (and if it is written as a Markdown file also rendered) and displayed when someone visits your GitHub repository.
 
-As a minimum, it should briefly explain what the project is about, as well as provide information on how to reproduce the results (eg. "First execute `.../0.0-bis-download_data.ipynb`, then ..., to reproduce all the main figures and tables in the paper"). To make the later part easier for visitors, you can provide a single script/notebook which runs all others in the correct order to get from the raw data to the final results. This is extremely useful for reproducibility and serves as sort of a documentation of your workflow. If you worked with Jupyter notebooks, I wrote [this small script](){:target="_blank"} which you might find useful.
-{% comment %}
-XXX link to run_ipynb.py script!
-{% endcomment %}
+As a minimum, it should briefly explain what the project is about, as well as provide information on how to reproduce the results (eg. "First execute `.../0.0-bis-download_data.ipynb`, then ..., to reproduce all the main figures and tables in the paper"). To make the later part easier for visitors, you can provide a single script/notebook which runs all others in the correct order to get from the raw data to the final results. This is extremely useful for reproducibility and serves as sort of a documentation of your workflow. If you worked with Jupyter notebooks, I wrote [this small script](https://github.com/binste/chicago_safepassage_evaluation/blob/master/run_ipynb.py){:target="_blank"} which you might find useful (for an example see the first few lines).
 
 [![example](../figures/example_icon.png){:height="36px" width="36px"}](https://github.com/binste/chicago_safepassage_evaluation/blob/master/README.md){:target="_blank"}
 
@@ -100,6 +97,8 @@ In R you can use the lines just before defining a function to do the same. You c
 
 ### Inline comments
 Throughout your script or notebook, you should provide information on assumptions you make, reasons on why you do non-obvious steps, etc. Remember, this not only helps others but first and foremost yourself!
+
+> “Code tells you how, Comments tell you why.” — [Jeff Atwood (Coding Horror)](https://blog.codinghorror.com/code-tells-you-how-comments-tell-you-why/)
 
 ### Documentation at beginning of a script
 At the beginning of a script you can place a short summary on what the script does.
