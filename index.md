@@ -15,6 +15,7 @@ Throughout the tutorial I'll try to convey only the most important information a
 ## Tools
 As a programming language I recommend using either R or Python. They both are open-source and have huge ecosystems of extensions and tutorials behind them. In a later section I'll go into the details on setting them up in a way which is favorable for reproducible research. If you want to use one of them and are completely new to it, I recommend that you first get up to speed with [these tutorials](../help_snippets/starter_python_r.md) before continuing with this guide. However, note that this guide and the tools presented are applicable to most of the commonly used languages for data analysis such as Stata, Julia, Scala, and Matlab.
 
+## Content
 The tutorial is split into three parts.
 
 1. [Preparation and setup](./1_Preparation/)
