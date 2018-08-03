@@ -3,8 +3,8 @@ title: Doing the work
 ---
 Apart from the documentation of your project discussed previously, there are a few other points to follow during your analysis.
 
-## Every step needs to be performed by a script / notebook
-Seriously, never use the point-and-click capabilities of a software. Instead, script every step. This is extremely important for reproducibility. If you really need to do it, document every click carefully and provide screenshots or a video of the process.
+## Automate every single step
+Seriously, never use the point-and-click capabilities of a software. Instead, use a script or notebook in your prefered programming language to run every step. This is extremely important for reproducibility. If you really need to defer from this practice, document every click you do carefully and provide screenshots or a video of the process.
 
 ### Relative paths
 Always use relative instead of absolute paths throughout your code base. This is another reason why it was important to put the project into a new directory. `/Users/sbinder/repository_name/data/raw/` then becomes `./data/raw`. This allows others to rerun the code without adjusting any paths.
@@ -27,7 +27,7 @@ source("src/prepare_data/routes.R")
 ```
 at the beginning of your Jupyter or R notebook. This will run all code in `routes.R` and therefore define all functions in it
 
-### Use random seeds.
-If your project involves the use of a random number generator (or an algorithm which uses one), you should set a random seed such that a rerun of the experiment gives exactly the same result. Consult the package you use for further information.
+### Use random seeds
+If your project involves the use of a pseudorandom number generator (or an algorithm which uses one), you should explicitly set the random seed such that a rerun of the experiment gives exactly the same results.
 
 [Back to the table of content](./index.md)
