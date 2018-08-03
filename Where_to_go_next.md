@@ -11,6 +11,7 @@ Interesting blog posts and tutorials for the interested reader. This guide was i
 * [CRAN Task View: *Reproducible Research*](https://cran.r-project.org/web/views/ReproducibleResearch.html){:target="_blank"}
 * [Data Science Cookiecutter Template](http://drivendata.github.io/cookiecutter-data-science/){:target="_blank"}
 * [Reproducible Research - Coursera](https://www.coursera.org/learn/reproducible-research)
+* [Markdown Tutorial](https://www.markdowntutorial.com/)
 
 {% comment %}
 Add literature from "literature/Blog posts"
