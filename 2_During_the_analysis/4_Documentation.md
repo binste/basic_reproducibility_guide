@@ -4,7 +4,7 @@ title: Writing good documentation
 * TOC
 {:toc}
 
-Remember, documentation is only useful if it is kept up to date! Otherwise, it might cause confusion and even be counterproductive. However, don't get into the habit of writing the documentation last, to avoid having outdated comments. Start good habits right from the beginning and keep updating your documentations whenever something changes. This will also help you later on understand what you did and especially why you did it.
+Documentation is only useful if it is kept up to date. Otherwise, it might cause confusion and even be counterproductive. However, don't get into the habit of writing the documentation last, to avoid having outdated comments. Start good habits right from the beginning and keep updating your documentations whenever something changes. This will also help you later on understand what you did and especially why you did it.
 
 ## README in the root directory
 Always create a README file in the root directory of your project. This can be a markdown (.md) or (.txt) file.
@@ -97,6 +97,23 @@ In R you can use the lines just before defining a function to do the same. You c
 Throughout your script or notebook, you should provide information on assumptions you make, reasons on why you do non-obvious steps, etc. Remember, this not only helps others but first and foremost yourself!
 
 > “Code tells you how, Comments tell you why.” — [Jeff Atwood (Coding Horror)](https://blog.codinghorror.com/code-tells-you-how-comments-tell-you-why/)
+
+I'll took the following example from [Software development skills for data scientists - treycausey.com](http://treycausey.com/software_dev_skills.html) as I believe it summarizes rather well what the intent of inline comments should be.
+
+> You've probably heard that you should comment your code many times. So, you wrote things like this:
+> ```python
+> # import packages
+> import pandas as pd
+> # load some data
+> df = pd.read_csv('data.csv', skiprows=2)
+> ```
+> These are bad comments. They don't add any information. Why is that skiprows parameter set to 2? Are there comments at the beginning of data.csv? Something like this might be preferable:
+> ```python
+> # Data contains two lines of description text, skip to avoid errors.
+> df = pd.read_csv('data.csv', skiprows=2)
+> ```
+
+(I myself am guilty of writing `# load data` way too many times...)
 
 ### Documentation at beginning of a script
 At the beginning of a script you can place a short summary on what the script does.
