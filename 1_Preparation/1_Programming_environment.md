@@ -23,7 +23,7 @@ into your console. Otherwise, head over to [the official Jupyter installation gu
 
 There are many good beginner tutorials on Jupyter out there, such as [this one from DataQuest](https://www.dataquest.io/blog/jupyter-notebook-tutorial/){:target="_blank"}.
 
-As a side note, there also exists [Jupyter lab](http://jupyterlab.readthedocs.io/en/latest/){:target="_blank"}. It contains many cool features in addition to the notebook functionality, such as a code editor and a .csv file viewer. However, it does not yet has such a wide ecosystem of extensions as the notebooks but it is certainly worth a look.
+As a side note, there also exists [Jupyter lab](http://jupyterlab.readthedocs.io/en/latest/){:target="_blank"}. It contains all of the functions of Jupyter notebooks plus many additional cool features and will eventually be the successor of the notebooks. It is certainly worth checking out.
 
 ### Code editor
 Even if you follow a notebook-based workflow, you'll end up needing a code editor sooner or later, for example when putting functions into separate scripts to declutter your notebooks, but more on this later.
