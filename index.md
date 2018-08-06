@@ -4,7 +4,7 @@ title: "Overview"
 **ATTENTION**: This is a work in progress and subject to major changes.
 
 
-This website presents a very basic workflow which makes your next data analysis reproducible by others. It tries to be the guide I'd have liked before doing my first empirical project during my studies in Economics at University.
+This website presents a basic workflow which makes your next data analysis reproducible by others. It tries to be the guide I'd have liked before doing my first empirical project during my studies in Economics at University.
 
 >*“Only results that can be replicated are truly scientific results. If there is no chance to replicate
 research results, they can be regarded as no more than personal views in the opinion or review
