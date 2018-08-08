@@ -13,7 +13,7 @@ This website presents a basic workflow which makes your next data analysis repro
 research results, they can be regarded as no more than personal views in the opinion or review
 section of a daily newspaper.”* - [Huschka (2013)](https://www.ratswd.de/dl/RatSWD_WP_216.pdf){:target="_blank"}
 
-The other one is the reason of enabling future research to build upon existing work instead of creating the need to first painfully recreate what has already been done.
+The other one is the reason of enabling future research to build upon existing one instead of creating the need to first painfully recreate what has already been done.
 
 ## Tools
 This guide is primarily written for Python and R users. Both languages are open-source, which greatly helps in making your research reproducible. Furthermore, they have huge ecosystems of extensions and tutorials. However, most of the tools and practices advertised should work with other commonly used languages for data analysis such as Stata, Julia, Scala, C++, or Matlab.
