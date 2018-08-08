@@ -40,7 +40,7 @@ Depending on your analysis, it might have certain requirements regarding hardwar
 ### Data
 As previously mentioned, if possible (read: allowed) you should provide not only the code but also the raw data used for the analysis. Should you not be able to upload your raw data, but the data is available online for free, you can also provide a notebook or script which automatically downloads the relevant data from the internet. To do this in Python you can use [this function](../help_snippets/download_function.md).
 
-If the data is not available online, provide an exact documentation of which files you obtained from which sources, how you applied for the data, and what were the costs if any. Furthermore, provide a screenshot of your `data/raw` folder such that others can better reconstruct it.
+If the data is not freely available online, provide an exact documentation of which files you obtained from where, how you applied for the data, and what were the costs if any. Furthermore, provide a screenshot of your `data/raw` folder such that others can better reconstruct it.
 
 In any case it is good if you provide information on when you obtained the data and if applicable a version number.
 [![example](../figures/example_icon.png){:height="36px" width="36px"}](https://github.com/binste/chicago_safepassage_evaluation/blob/master/notebooks/0_download_data/0.0-binste-download-data.ipynb){:target="_blank"}
@@ -48,11 +48,33 @@ In any case it is good if you provide information on when you obtained the data 
 ## Code
 Documenting your code is very important for others to be able to better and more easily understand it, as well as for yourself if you ever revisit code you have written in the past. This section shows examples of how you can write a general description of a script or notebook, document your functions as well as write inline comments.
 
+### Documentation at beginning of a script
+At the beginning of every script or notebook, a brief description should summarize its purpose and functionality.
+
+In Python you can use docstrings for scripts:
+```python
+"""Loads and prepares median income data as well as
+data on racial composition (calculates racial heterogeneity index).
+All of it on a census block level.
+This data is then merged to the block group dataset.
+"""
+```
+
+In R you can use standard inline comments.
+```r
+# Loads and prepares median income data as well as
+# data on racial composition (calculates racial heterogeneity index).
+# All of it on a census block level.
+# This data is then merged to the block group dataset.
+```
+
+In a Jupyter/R notebook, you should use the markdown functionality to do the same.
+
 ### Function and class documentation
 #### Python
-If you use Python, a good documentation convention is the [Numpydoc format](https://numpydoc.readthedocs.io/en/latest/){:target="_blank"}, which is used in many popular data science packages. The documentation is quite extensive, but a good place to start using it is inside your functions and classes (and methods) which allow for docstrings.
+If you use Python, a good documentation convention is the [Numpydoc format](https://numpydoc.readthedocs.io/en/latest/){:target="_blank"}, which is used in many popular data science packages. The documentation is quite extensive, but a good place to start using it is inside your functions, classes, and methods.
 
-Take the following beginning of a function defined in Python as an example:
+Take the following example of the first few lines of a function defined in Python:
 ```python
 def load_relevant_crimes(min_date,
                          max_date=None,
@@ -93,20 +115,23 @@ def load_relevant_crimes(min_date,
     pd.DataFrame
         Dataframe containing loaded crimes
     """
+    # Code
+    ...
+    return
 ```
 [![example](../figures/example_icon.png){:height="36px" width="36px"}](https://github.com/binste/chicago_safepassage_evaluation/blob/master/src/prepare_data/crime_database.py){:target="_blank"}
 
-The first line briefly summarizes the main purposes of the function. The following paragraph goes into more detail. The `Parameters` section names all function arguments (e.g. `min_date`), their type (e.g. `str`), if applicable additional information such as format or if it is an optional argument (mention what the default is!) as well as a explanation. The `Returns` section names the type of the returned object and a brief description.
+The first line of the docstring briefly summarizes the main purpose of the function. The subsequent paragraph goes into more detail. The `Parameters` section names all function arguments (e.g. `min_date`), their type (e.g. `str`), if applicable additional information such as format or if it is an optional argument as well as an explanation. The `Returns` section names the type of the returned object and a brief description.
 
 #### R
-In R you can use the lines just before defining a function to do the same. You can find a good introduction in the [tidyverse style guide](http://style.tidyverse.org/documentation.html){:target="_blank"}.
+In R you can use the lines just before defining a function to do the same. A good introduction can be found in the [tidyverse style guide](http://style.tidyverse.org/documentation.html){:target="_blank"}.
 
 ### Inline comments
-Throughout your script or notebook, you should provide information on assumptions you make, reasons on why you do non-obvious steps, etc. Remember, this not only helps others but first and foremost yourself!
+Throughout your script or notebook, you should provide information on assumptions you make,reasons on why you do non-obvious steps, etc. Remember, this not only helps others but first and foremost yourself!
 
 > “Code tells you how, Comments tell you why.” — [Jeff Atwood (Coding Horror)](https://blog.codinghorror.com/code-tells-you-how-comments-tell-you-why/)
 
-I'll took the following example from [Software development skills for data scientists - treycausey.com](http://treycausey.com/software_dev_skills.html) as I believe it summarizes rather well what the intent of inline comments should be.
+The following example, which I took from [Software development skills for data scientists - treycausey.com](http://treycausey.com/software_dev_skills.html), summarizes rather well what the intent of inline comments should be.
 
 > You've probably heard that you should comment your code many times. So, you wrote things like this:
 > ```python
@@ -122,27 +147,5 @@ I'll took the following example from [Software development skills for data scien
 > ```
 
 (I myself am guilty of writing `# load data` way too many times...)
-
-### Documentation at beginning of a script
-At the beginning of a script you can place a short summary on what the script does.
-
-In Python you can use docstrings:
-```python
-"""Loads and prepares median income data as well as
-data on racial composition (calculates racial heterogeneity index).
-All of it on a census block level.
-This data is then merged to the block group dataset.
-"""
-```
-
-In R simply put inline comments at the beginning of a script.
-```r
-# Loads and prepares median income data as well as
-# data on racial composition (calculates racial heterogeneity index).
-# All of it on a census block level.
-# This data is then merged to the block group dataset.
-```
-
-In a Jupyter/R notebook, use the markdown functionality to do the same.
 
 [Back to the table of content](./index.md)
