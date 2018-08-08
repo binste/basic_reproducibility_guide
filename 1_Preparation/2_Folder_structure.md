@@ -3,7 +3,7 @@ title: Folder structure
 ---
 Setting up a well structured project folder makes it not only for you easier to keep tabs of all the relevant files but also helps others to more easily find their way.
 
-A minimal folder structure is proposed in the following. It heavily leans on [this excellent but more extensive folder template for data science projects](http://drivendata.github.io/cookiecutter-data-science/){:target="_blank"} (most of the folder descriptions are from there). However, the template below focuses more on using notebooks as the main analysis tool. Therefore, the `notebooks` folder is more heavily structured and the `src` folder only contains functions which can be imported by the corresponding notebooks.
+A minimal folder structure is proposed in the following. It heavily leans on [this excellent but more extensive folder template for data science projects](http://drivendata.github.io/cookiecutter-data-science/){:target="_blank"} (most of the folder descriptions are from there). However, the template below focuses more on using notebooks as the main analysis tool (see previous section). They are contained in the `notebook` folder. The `src` folder contains functions which can be imported by the corresponding notebooks.
 
 ```
 ├── data
@@ -36,11 +36,11 @@ A minimal folder structure is proposed in the following. It heavily leans on [th
 ```
 [![example](../figures/example_icon.png){:height="36px" width="36px"}](https://github.com/binste/chicago_safepassage_evaluation){:target="_blank"}
 
-A good naming convention for your notebooks might be the following one, taken from the above mentioned cookie cutter template:
+A good naming convention for your notebooks might be:
 "*A number (for ordering), the creator's initials, and a short `-` delimited description, e.g. `1.0-jqp-initial-data-exploration`."*
-[![example](../figures/example_icon.png){:height="36px" width="36px"}](https://github.com/binste/chicago_safepassage_evaluation/tree/master/notebooks/1_prepare_data){:target="_blank"}
+[![example](../figures/example_icon.png){:height="36px" width="36px"}](https://github.com/binste/chicago_safepassage_evaluation/tree/master/notebooks/1_prepare_data){:target="_blank"} (taken from the above mentioned cookie cutter template).
 
-Although I strongly recommend a workflow focused on using notebooks for everything from downloading the data, preparing it, up to your final analysis/model, your personal workflow might differ and you might want to change the folder structure. However, at least try to adhere to the following points (partly inspired by [this post](http://kbroman.org/steps2rr/pages/organize.html){:target="_blank"}):
+Depending on your personal workflow you might want to change the proposed folder structure. However, at least try to adhere to the following points (partly inspired by [this post](http://kbroman.org/steps2rr/pages/organize.html){:target="_blank"}):
 
 * Put every new project in a new folder. This makes it not only easier for yourself to have an overview of everything belonging to the project, but also for putting your project into version control (we'll talk about this later) and sharing it with others.
 * Keep your unedited data files in a separate folder (e.g. `data/raw`) as you originally received them (using the original file name). Although it might be tempting to open that Excel file and change a few things by hand, don't!
