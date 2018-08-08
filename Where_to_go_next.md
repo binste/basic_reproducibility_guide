@@ -16,6 +16,7 @@ This page presents a list of interesting blog posts and tutorials in no particul
 * [The Practice of Reproducible Research](https://www.practicereproducibleresearch.org/)
 * [An introduction to Docker for reproducible research, with examples from the R environment](https://arxiv.org/abs/1410.0846)
 * [Best Practices for Computational Science: Software Infrastructure and Environments for Reproducible and Extensible Research](https://openresearchsoftware.metajnl.com/articles/10.5334/jors.ay/)
+* [Comparing Workflows (Git) - Atlassian.com](https://www.atlassian.com/git/tutorials/comparing-workflows)
 
 
 {% comment %}
