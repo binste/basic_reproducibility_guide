@@ -3,33 +3,44 @@ title: Writing good documentation
 ---
 Writing good and up-to-date documentation is critical for others to be able to quickly understand your project. It is also essential for yourself to later on understand what you did and especially why. It is a good habit to start right from the beginning keep updating your documentations whenever something changes.
 
-## README in the root directory
-Always create a README file in the root directory of your project. This can be a markdown (.md) or (.txt) file.
->**Note**: A readme file in the root directory gets automatically detected by GitHub (and if it is written as a Markdown file also rendered) and displayed when someone visits your GitHub repository.
+## README file
+Always create a README file in the root directory of your project. This can be a markdown (.md) or (.txt) file. It will be the entry point for visitors to your project. First, include a description of your project. If it is multiple paragraphs, provide a short summary in the beginning.
 
-As a minimum, it should briefly explain what the project is about, as well as provide information on how to reproduce the results (eg. "First execute `.../0.0-bis-download_data.ipynb`, then ..., to reproduce all the main figures and tables in the paper"). To make the later part easier for visitors, you can provide a single script/notebook which runs all others in the correct order to get from the raw data to the final results. This is extremely useful for reproducibility and serves as sort of a documentation of your workflow. If you worked with Jupyter notebooks, I wrote [this small script](https://github.com/binste/chicago_safepassage_evaluation/blob/master/run_ipynb.py){:target="_blank"} which you might find useful (for an example see the first few lines).
+Your readme file will also be automatically detected by GitHub (and if it is written as a Markdown file also rendered) and displayed when someone visits your GitHub repository.
 
 [![example](../figures/example_icon.png){:height="36px" width="36px"}](https://github.com/binste/chicago_safepassage_evaluation/blob/master/README.md){:target="_blank"}
 
-## environment.yml file
-To reproduce your results, others need to know what software and additional packages you used (and the respective version numbers). You can either specify this in the above discussed README file, or, if you used the package manager conda, you can automatically create an environment file which contains all the necessary information. This allows others to get the same Python or R installation with a single command.
+### Data and code "pipeline"
+Another section in your README should provide information on how to reproduce the results (eg. "First execute `.../0.0-bis-download_data.ipynb`, then ..., to reproduce all the main figures and tables in the paper"). To make the later part easier for visitors, you can also provide a single script/notebook which runs all the necessary files in the correct order to get from the raw data to the final results. This is extremely useful for reproducibility and also serves as sort of a documentation of your workflow. If you worked with Jupyter notebooks, you can use [this small script](https://github.com/binste/chicago_safepassage_evaluation/blob/master/run_ipynb.py){:target="_blank"} I wrote.
 
-If you have created a new environment with conda for your project, activate it and then enter the following command:
+### Software environment
+To reproduce your results, others need to know what software and additional packages you used (and the respective version numbers). You can also specify this in the above discussed README file.
+
+Again, there is a way to greatly simplify this process. If you used the package manager conda and created a new environment for your porject, you can automatically create an environment file which contains exact information on the R or Python version used as well as on all the packages.
+
+First activate the environment, then enter the following command:
 ```bash
 conda env export > environment.yml
 ```
-This exports the specifications of your environment into a file called `environment.yml` (and will overwrite an already existing one). You can now add this to your repository on GitHub (like any other file) and it can be used by others to replicate your environment by calling
-
+This exports the specifications of your environment into a file called `environment.yml`. You can then add it to your repository on GitHub (like any other file) and it can be used by others to replicate your environment by downloading it and calling
 ```bash
 conda env create -f environment.yml
 ```
-The name of the environment will be the same and is determined by the first line of the `environment.yml` file.
+The name of the copied environment will be by default the same one you have used and can be changed in the first line of the file.
 
-Note that you might want to delete many of the packages specified if you don't remember having installed them. They are probably system-specific dependencies which conda installed automatically and might prevent the installation of the environment on a different operating system. For an example for an environment file see [![example](../figures/example_icon.png){:height="36px" width="36px"}](https://github.com/binste/chicago_safepassage_evaluation/blob/master/environment.yml){:target="_blank"}.
+Note, that the `environment.yml` file can become rather cluttered after you have installed many packages. Some of them will be system-specific dependencies which conda installed automatically and might prevent the installation of the environment on a different operating system. To make it easier for others, you might want to delete packages from the list if you don't remember installing them. You can then create a new environment from the edited file (change the name first!) and rerun your analysis, to see if it still works.
 
+[![example](../figures/example_icon.png){:height="36px" width="36px"}](https://github.com/binste/chicago_safepassage_evaluation/blob/master/environment.yml){:target="_blank"}.
 
-## Data
-As already mentioned, if possible (and especially allowed) you want to provide not only your code but also the raw data used for the analysis. Should you not be able to upload your raw data but the data is available online for free, you should provide a notebook which automatically downloads the relevant data from the internet. To do this in Python you can use [this function](../help_snippets/download_function.md). If the data is not available online, provide an exact documentation of where you obtained what files, how you applied for them, and what were the costs. To speed up the documentation you could provide a screenshot of your `data/raw` folder.
+Don't forget to also include some information in the README on the operating system and the version you used.
+
+### Hardware
+Depending on your analysis, it might have certain requirements regarding hardware. It is helpful if you specify this in the README file, such that others can better assess, if they are able to rerun the analysis on their machine. At a minimum, include some information from your machine, such as total RAM available and if a graphics card was used.
+
+### Data
+As previously mentioned, if possible (read: allowed) you should provide not only the code but also the raw data used for the analysis. Should you not be able to upload your raw data, but the data is available online for free, you can also provide a notebook or script which automatically downloads the relevant data from the internet. To do this in Python you can use [this function](../help_snippets/download_function.md).
+
+If the data is not available online, provide an exact documentation of which files you obtained from which sources, how you applied for the data, and what were the costs if any. Furthermore, provide a screenshot of your `data/raw` folder such that others can better reconstruct it.
 
 In any case it is good if you provide information on when you obtained the data and if applicable a version number.
 [![example](../figures/example_icon.png){:height="36px" width="36px"}](https://github.com/binste/chicago_safepassage_evaluation/blob/master/notebooks/0_download_data/0.0-binste-download-data.ipynb){:target="_blank"}
