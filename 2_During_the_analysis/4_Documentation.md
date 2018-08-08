@@ -1,10 +1,7 @@
 ---
 title: Writing good documentation
 ---
-* TOC
-{:toc}
-
-Documentation is only useful if it is kept up to date. Otherwise, it might cause confusion and even be counterproductive. However, don't get into the habit of writing the documentation last, to avoid having outdated comments. Start good habits right from the beginning and keep updating your documentations whenever something changes. This will also help you later on understand what you did and especially why you did it.
+Writing good and up-to-date documentation is critical for others to be able to quickly understand your project. It is also essential for yourself to later on understand what you did and especially why. It is a good habit to start right from the beginning keep updating your documentations whenever something changes.
 
 ## README in the root directory
 Always create a README file in the root directory of your project. This can be a markdown (.md) or (.txt) file.
