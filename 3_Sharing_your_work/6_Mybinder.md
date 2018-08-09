@@ -15,6 +15,8 @@ One option to make at least some steps of the analysis, such as plotting figures
 
 Another possibility for users, is to use [repo2docker](https://github.com/jupyter/repo2docker){:target="_blank"}, one of the tools behind mybinder.org. It will download the repository to the users computer and set up all the necessary dependencies in a separate environment. This frees others of the resource constraints of mybinder, but still allows for a very simple and straightforward reproduction of the results. For an example, see [![example](../figures/example_icon.png){:height="36px" width="36px"}](https://github.com/binste/chicago_safepassage_evaluation#run-analysis-on-your-own-machine){:target="_blank"}
 
-For further information on mybinder.org, the [official documentation](https://mybinder.readthedocs.io/en/latest/#binder-documentation){:target="_blank"} is a great place to start.
+For further information on mybinder.org, [the official documentation](https://mybinder.readthedocs.io/en/latest/#binder-documentation){:target="_blank"} is a great place to start.
+
+You reached the end of this guide. If you want to learn more about reproducible research practices, check out ["Where to go next"](../Where_to_go_next.md).
 
 [Back to the table of content](./index.md)
