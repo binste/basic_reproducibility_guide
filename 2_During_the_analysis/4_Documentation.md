@@ -148,4 +148,6 @@ The following example, which I took from [Software development skills for data s
 
 (I myself am guilty of writing `# load data` way too many times...)
 
-[Back to the table of content](./index.md)
+Next to writting informative easily understandable documentation, [there are a few other things you should consider while doing your analsis](./2_During_the_analysis).
+
+[Table of content: "During the analysis"](./index.md)

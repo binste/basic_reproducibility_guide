@@ -44,4 +44,4 @@ Other good alternatives include [Atom](https://atom.io/){:target="_blank"} and [
 
 You're programming environment should now be set up in a way, which not only is convenient for you, but is highly favourable for reproducible research. [Next, we will create a well structured project folder to keep everything well organised from the beginning.](./2_Folder_structure.md)
 
-[Or head back to the table of content](./index.md)
+[Table of content: "Preparation"](./index.md)

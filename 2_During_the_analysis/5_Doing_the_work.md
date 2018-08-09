@@ -29,4 +29,6 @@ at the beginning of your Jupyter or R notebook. This will run all code in `route
 ### Use random seeds
 If your project involves the use of a pseudorandom number generator (or an algorithm which uses one), you should explicitly set the random seed such that a rerun of the experiment gives exactly the same results.
 
-[Back to the table of content](./index.md)
+You already generated some interesting insights and might be ready to share them with the world? [Let us first quickly look at the legal aspect of licensing your work (this is a short one, I promise)](../3_Sharing_your_work/6_License.md).
+
+[Table of content: "During the analysis"](./index.md)

@@ -19,4 +19,4 @@ For further information on mybinder.org, [the official documentation](https://my
 
 You reached the end of this guide. If you want to learn more about reproducible research practices, check out ["Where to go next"](../Where_to_go_next.md).
 
-[Back to the table of content](./index.md)
+[Table of content: "Sharing your work"](./index.md)

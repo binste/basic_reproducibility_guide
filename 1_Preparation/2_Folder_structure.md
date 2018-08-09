@@ -46,4 +46,6 @@ Depending on your personal workflow you might want to change the proposed folder
 * Keep your unedited data files in a separate folder (e.g. `data/raw`) as you originally received them (using the original file name). Although it might be tempting to open that Excel file and change a few things by hand, don't!
 * Put data, code, and produced reports/models into different subdirectories.
 
-[Back to the table of content](./index.md)
+After we have neatly arranged our project folder, [let us talk about a very important, but often neglected topic: Version control](./3_Version_control.md).
+
+[Table of content: "Preparation"](./index.md)
