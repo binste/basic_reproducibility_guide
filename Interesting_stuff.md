@@ -4,6 +4,7 @@ permalink: /interesting_stuff
 layout: single
 sidebar:
     nav: "guide"
+toc: false
 ---
 This page presents a list of interesting blog posts and tutorials in no particular order. This guide was inspired by some of them.
 
