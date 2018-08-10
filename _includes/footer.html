@@ -1,35 +1,15 @@
-<footer class="site-footer h-card">
-    <data class="u-url" href="{{ "/" | relative_url }}"></data>
-
-    <div class="wrapper">
-
-      <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-      <div class="footer-col-wrapper">
-        <div class="footer-col footer-col-1">
-          <ul class="contact-list">
-            <li class="p-name">
-              {%- if site.author -%}
-                {{ site.author | escape }}
-              {%- else -%}
-                {{ site.title | escape }}
-              {%- endif -%}
-              </li>
-              {%- if site.email -%}
-              <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-              {%- endif -%}
-          </ul>
-        </div>
-
-        <div class="footer-col footer-col-2">
-          {%- include social.html -%}
-        </div>
-
-        <div class="footer-col footer-col-3">
-          {%- include footer_text.html -%}
-        </div>
-      </div>
-
+<footer id="footer" class="site-footer">
+  <div class="inner">
+    <div class="links">
+        <p>The source code for this website can be found on <a href="https://github.com/binste/basic_reproducibility_guide">GitHub</a>.
+        Any typos, bugs, or inputs can be reported on the corresponding <a href="https://github.com/binste/basic_reproducibility_guide/issues">issues page</a>.</p>
     </div>
-
-  </footer>
+    <div class="copyright">
+      {% if site.copyright %}
+        {{ site.copyright | markdownify }}
+      {% else %}
+        <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}.</p>
+      {% endif %}
+    </div>
+  </div>
+</footer>

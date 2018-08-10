@@ -1,7 +1,8 @@
 ---
 title: During the analysis
+permalink: /during_the_analysis/
 ---
-1. [Writing good documentation](./4_Documentation.md)
-2. [Doing the work](./5_Doing_the_work.md)
+1. [Writing good documentation](./documentation)
+2. [Doing the work](./doing_the_work)
 
 [Back to main page](../)

@@ -1,5 +1,6 @@
 ---
 title: Doing the work
+permalink: /during_the_analysis/doing_the_work
 ---
 Apart from the documentation of your project discussed previously, there are a few other practices you should follow during your analysis.
 
@@ -31,6 +32,6 @@ at the beginning of your Jupyter or R notebook. This will run all code in `route
 ### Use random seeds
 If your project involves the use of a pseudorandom number generator (or an algorithm which uses one), you should explicitly set the random seed such that a rerun of the experiment gives exactly the same results.
 
-You already generated some interesting insights and might be ready to share them with the world? [Let us first quickly look at the legal aspect of licensing your work (this is a short one, I promise)](../3_Sharing_your_work/6_License.md).
+You already generated some interesting insights and might be ready to share them with the world? [Let us first quickly look at the legal aspect of licensing your work (this is a short one, I promise)](../sharing_your_work/license).
 
-[Table of content: "During the analysis"](./index.md)
+[Table of content: "During the analysis"](.)

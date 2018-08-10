@@ -1,5 +1,6 @@
 ---
-title: "Overview"
+title: Overview
+layout: page
 ---
 **ATTENTION**: This is a work in progress and subject to major changes.
 
@@ -18,16 +19,18 @@ The other one is the reason of enabling future research to build upon existing o
 ## Tools
 This guide is primarily written for Python and R users. Both languages are open-source, which greatly helps in making your research reproducible. Furthermore, they have huge ecosystems of extensions and tutorials. However, most of the tools and practices advertised should work with other commonly used languages for data analysis such as Stata, Julia, Scala, C++, or Matlab.
 
-If you want to use either Python or R and are completely new to it, I recommend that you first get up to speed with [these tutorials](./help_snippets/starter_python_r.md) before continuing with this guide. In the section on "Programming environment" I'll also go into the details on setting up Python and R in a way which is favorable for reproducible research.
+If you want to use either Python or R and are completely new to it, I recommend that you first get up to speed with [these tutorials](/beginner_resources) before continuing with this guide. In the section on "Programming environment" I'll also go into the details on setting up Python and R in a way which is favorable for reproducible research.
 
 ## Content
 The guide is split into three parts.
 
-1. [Preparation and setup](./1_Preparation/)
-2. [During the analysis](./2_During_the_analysis/)
-3. [Sharing your work](./3_Sharing_your_work/)
+1. [Preparation and setup](./preparation/)
+2. [During the analysis](./during_the_analysis/)
+3. [Sharing your work](./sharing_your_work/)
 
-Furthermore, I compiled a [list of tutorials and documentations](./Where_to_go_next.md) which go more in-depth on reproducible research.
+Furthermore, I compiled a [list of tutorials and documentations](/where_to_go_next) which go more in-depth on reproducible research.
+
+You can always use the navigation button on the top right of the page to switch between the sections.
 
 ## About
 This website is part of my thesis for obtaining a Master of Arts in Economics (major) and Data Science (minor) at the University of Zurich. The second part is an evaluation of the effectiveness of a crime prevention program in Chicago. You can find an overview of the analysis [here](https://binste.github.io/chicago_safepassage_evaluation/). The code in the corresponding [GitHub repository](https://github.com/binste/chicago_safepassage_evaluation) can be seen as an example for the practices I'll advertise in this guide. Throughout the guide, the ![example](./figures/example_icon.png){: height="36px" width="36px"} icon will take you to relevant files and folders such that you can see it all in action.

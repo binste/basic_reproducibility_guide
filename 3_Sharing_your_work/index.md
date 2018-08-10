@@ -1,9 +1,10 @@
 ---
 title: Sharing your work
+permalink: /sharing_your_work/
 ---
-1. [License](./6_License.md)
-1. [Provide a free no-setup-needed computational environment](./7_Mybinder.md)
+1. [License](./license)
+1. [Provide a free no-setup-needed computational environment](./mybinder)
 
-[Where to go next](../Where_to_go_next.md)
+[Where to go next](../where_to_go_next)
 
 [Back to main page](../)

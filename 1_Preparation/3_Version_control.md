@@ -1,5 +1,6 @@
 ---
 title: Set up version control
+permalink: /preparation/version_control
 ---
 Putting your project under version control can greatly help you make your project reproducible. It let's you try out different versions of an analysis and still revert back to a previous version and recover the code that produced the main results in the first place. Furthermore, it can save yourself a lot of time down the line when you want to track down a bug and you are not sure when it got introduced or how the code looked before you changed that one buggy function.
 
@@ -43,6 +44,6 @@ Include link to example project?
 Include information on what to do if sizes are above that?
 {% endcomment %}
 
-You now already have set up your programming environment, a well organised folder structure, as well as a version control system which will be of immense value. Maybe you have already started to clean your data in some fresh notebooks. [It is then time, to talk about documentation, such that your codebase stays tidy and you have all the important information in the right place](../2_During_the_analysis/4_Documentation.md).
+You now already have set up your programming environment, a well organised folder structure, as well as a version control system which will be of immense value. Maybe you have already started to clean your data in some fresh notebooks. [It is then time, to talk about documentation, such that your codebase stays tidy and you have all the important information in the right place](../during_the_analysis/documentation).
 
-[Table of content: "Preparation"](./index.md)
+[Table of content: "Preparation"](.)

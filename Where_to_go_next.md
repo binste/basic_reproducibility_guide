@@ -1,5 +1,6 @@
 ---
 title: Where to go next
+permalink: /where_to_go_next
 ---
 This page presents a list of interesting blog posts and tutorials in no particular order. This guide was inspired by some of them.
 
@@ -26,4 +27,4 @@ XXX Might want to structure the above list?
 {% endcomment %}
 
 
-[Overview](./index.md)
+[Back to the overview](.)

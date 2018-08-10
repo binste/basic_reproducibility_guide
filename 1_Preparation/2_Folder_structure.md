@@ -1,5 +1,6 @@
 ---
 title: Folder structure
+permalink: /preparation/folder_structure
 ---
 Setting up a well structured project folder makes it not only for you easier to keep tabs of all the relevant files but also helps others to more easily find their way.
 
@@ -44,6 +45,6 @@ Depending on your personal workflow you might want to change the proposed folder
 * Keep your unedited data files in a separate folder (e.g. `data/raw`) as you originally received them (using the original file name). Although it might be tempting to open that Excel file and change a few things by hand, don't!
 * Put data, code, and produced reports/models into different subdirectories.
 
-After we have neatly arranged our project folder, [let us talk about a very important, but often neglected topic: Version control](./3_Version_control.md).
+After we have neatly arranged our project folder, [let us talk about a very important, but often neglected topic: Version control](./version_control).
 
-[Table of content: "Preparation"](./index.md)
+[Table of content: "Preparation"](.)

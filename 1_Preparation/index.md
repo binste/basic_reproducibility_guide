@@ -1,8 +1,9 @@
 ---
 title: Preparation and setup
+permalink: /preparation/
 ---
-1. [Programming environment](./1_Programming_environment.md)
-2. [Set up a folder structure](./2_Folder_structure.md)
-3. [How to use version control](./3_Version_control.md)
+1. [Programming environment](./programming_environment)
+2. [Set up a folder structure](./folder_structure)
+3. [How to use version control](./version_control)
 
 [Back to main page](../)

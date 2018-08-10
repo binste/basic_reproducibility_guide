@@ -1,5 +1,6 @@
 ---
 title: Beginner resources
+permalink: beginner_resources
 ---
 There are many great websites online which offer courses to start with a language or brush up on a few topics. I can wholeheartedly recommend [DataCamp.com](https://www.datacamp.com/home){:target="_blank"}. But of course you don't need to spend money to learn either Python nor R. Below you can find a list of great free resources and there is a ton more out there.
 

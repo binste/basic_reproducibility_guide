@@ -1,5 +1,6 @@
 ---
 title: Programming environment
+permalink: /preparation/programming_environment
 ---
 ### Conda - package manager
 With new versions being released, naturally, software changes its behaviour. Even though this might be desired, it can make reproducing someone elses work a lot harder, if you don't have access to the exact same software as was used in the analysis. Furthermore, if you update a tool for a project, this might break some code in another one, as the latter might depend on the old functionality of the software.
@@ -8,8 +9,8 @@ Both of these issues can be solved easily, if you take them into consideration w
 
 To do this, if you decided on doing your project in Python or R, I highly recommend to install them as well as additional packages, using the package manager conda. You can find the corresponding installation instructions below:
 
-* [Installation instructions for Python](../help_snippets/installation_python.md)
-* [Installation instructions for R](../help_snippets/installation_r.md)
+* [Installation instructions for Python](../howto_install_python)
+* [Installation instructions for R](../howto_install_r)
 
 Conda not only greatly simplifies the installation of most of the packages you'll ever need, it also makes it possible to create the before mentioned separate environments for each of your projects. At the start of a project, you will create a fresh installation of Python or R in a new folder (see the corresponding link above on how it works) and all packages which will be needed for the analysis, can be subsequently installed there too. Don't worry, this is much less work then you might initially think.
 
@@ -41,6 +42,6 @@ Personally, I use [Microsoft Visual Studio Code](https://code.visualstudio.com/)
 
 > Note: Microsoft Visual Studio Code offers a very good and easily installable Python integration (you only need to install the official Python extension) as well as many other desirable features. It can also handle R scripts and many other languages. This website was written as markdown files in VS Code!
 
-You're programming environment should now be set up in a way, which not only is convenient for you, but is highly favourable for reproducible research. [Next, we will create a well structured project folder to keep everything well organised from the beginning.](./2_Folder_structure.md)
+You're programming environment should now be set up in a way, which not only is convenient for you, but is highly favourable for reproducible research. [Next, we will create a well structured project folder to keep everything well organised from the beginning.](./folder_structure)
 
-[Table of content: "Preparation"](./index.md)
+[Table of content: "Preparation"](.)

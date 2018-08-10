@@ -1,5 +1,6 @@
 ---
 title: Installation instructions for R
+permalink: howto_install_r
 ---
 If you only want to use R, you might not want the preinstalled Python packages that come with Anaconda. Instead, download [Miniconda](https://conda.io/miniconda.html){:target="_blank"}. It contains the conda package manager but without the Python packages. Still you need to choose the default version of Python when downloading Miniconda. Go with Python 3.X. Don't worry, you'll never need to do anything in Python, we'll only use the package manager.
 
