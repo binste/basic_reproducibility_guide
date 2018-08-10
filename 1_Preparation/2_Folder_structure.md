@@ -13,7 +13,7 @@ A minimal folder structure is proposed in the following. It heavily leans on [th
 │   ├── processed      <- The final data sets
 │   └── raw            <- The original, immutable data dump
 │
-├── models             <- Serialized models, predictions, summaries
+├── models             <- Serialized models, summaries
 │
 ├── notebooks          <- Jupyter notebooks
 │   │
