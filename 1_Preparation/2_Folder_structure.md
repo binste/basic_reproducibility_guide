@@ -5,36 +5,36 @@ toc: false
 ---
 Setting up a well structured project folder makes it not only for you easier to keep tabs of all the relevant files but also helps others to more easily find their way.
 
-A minimal folder structure is proposed in the following. It heavily leans on [this excellent but more extensive folder template for data science projects](http://drivendata.github.io/cookiecutter-data-science/){:target="_blank"} (most of the folder descriptions are from there). However, the template below focuses more on using notebooks as the main analysis tool (see previous section). They are contained in the `notebook` folder. The `src` folder contains functions which can be imported by the corresponding notebooks.
+A minimal folder structure is proposed in the following. It heavily leans on [this excellent but more extensive folder template for data science projects](http://drivendata.github.io/cookiecutter-data-science/){:target="_blank"} (most of the folder descriptions are from there). However, the template below focuses more on using notebooks as the main analysis tool (see previous section). They are contained in the `notebook` folder. The `src` folder then contains scripts which only contain functions which can be imported by the corresponding notebooks. The section on "Doing the work" will go more in-depth on how to do this.
 
 ```
 ├── data
-│   ├── interim        <- Intermediate data that has been transformed.
-│   ├── processed      <- The final, canonical data sets for the analysis.
-│   └── raw            <- The original, immutable data dump.
+│   ├── interim        <- Intermediate data
+│   ├── processed      <- The final data sets
+│   └── raw            <- The original, immutable data dump
 │
-├── models             <- Trained and serialized models/regressions, model predictions, or model summaries
+├── models             <- Serialized models, predictions, summaries
 │
-├── notebooks          <- Jupyter notebooks.
+├── notebooks          <- Jupyter notebooks
 │   │
-│   ├── 0_download_data  <- Notebooks to download data
+│   ├── 0_download_data
 │   │
-│   │── 1_prepare_data   <- Notebooks to prepare data (clean, merge, etc.)
+│   │── 1_prepare_data
 │   │
-└   └── other folders  <- Depending on your analysis you might want additional folders such as model, visualization, analysis, etc.
+│   └── other folders
 │
-├── references         <- Data dictionaries, manuals, and all other explanatory materials.
+├── references         <- Data dictionaries, manuals, etc.
 │
-├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-│   └── figures         <- Generated graphics and figures to be used in reporting
+├── reports            <- HTML, PDF, LaTeX, etc.
+│   └── figures
 │
-├── src                <- Source code for use in this project (e.g. all .py/.r files). Might contain mostly functions which can be imported by the notebooks
+├── src                <- Functions for notebooks
 │   │
-│   ├── download_data  <- Scripts to download data
+│   ├── download_data
 │   │
-│   │── prepare_data   <- Scripts to prepare data (clean, merge, etc.)
+│   │── prepare_data
 │   │
-└   └── other folders  <- Depending on your analysis you might want additional folders such as model, visualization, analysis, etc.
+└   └── other folders
 ```
 [![example](../figures/example_icon.png){:height="36px" width="36px"}](https://github.com/binste/chicago_safepassage_evaluation){:target="_blank"}
 
