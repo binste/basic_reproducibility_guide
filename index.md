@@ -32,4 +32,4 @@ If you want to use either Python or R and are completely new to it, I recommend 
 ## About
 This website is part of my thesis for obtaining a Master of Arts in Economics (major) and Data Science (minor) at the University of Zurich. The second part is an evaluation of the effectiveness of a crime prevention program in Chicago. You can find an overview of the analysis [here](https://binste.github.io/chicago_safepassage_evaluation/). The code in the corresponding [GitHub repository](https://github.com/binste/chicago_safepassage_evaluation) can be seen as an example for the practices I'll advertise in this guide. Throughout the guide, the ![example](./figures/example_icon.png){: height="36px" width="36px"} icon will take you to relevant files and folders such that you can see it all in action.
 
-[Let's dive right in.](/preparation/programming_environment)
+[Let's dive right in.](./preparation/programming_environment)
