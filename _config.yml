@@ -1,4 +1,4 @@
-theme: jekyll-theme-basically-basic
+remote_theme: "mmistakes/jekyll-theme-basically-basic"
 title: "A Basic Guide to Reproducible Research"
 
 markdown: kramdown
