@@ -4,7 +4,7 @@ title: Writing good documentation
 Writing good and up-to-date documentation is critical for others to be able to quickly understand your project. It is also essential for yourself to later on understand what you did and especially why. It is a good habit to start right from the beginning keep updating your documentations whenever something changes.
 
 ## README file
-Always create a README file in the root directory of your project. This can be a markdown (.md) or (.txt) file. It will be the entry point for visitors to your project. First, include a description of your project. If it is multiple paragraphs, provide a short summary in the beginning.
+Always create a README file in the root directory of your project. This can be a markdown (.md) or text (.txt) file. It will be the entry point for visitors to your project. First, include a description of your project. If it is multiple paragraphs, provide a short summary in the beginning.
 
 Your readme file will also be automatically detected by GitHub (and if it is written as a Markdown file also rendered) and displayed when someone visits your GitHub repository.
 
