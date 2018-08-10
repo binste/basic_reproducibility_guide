@@ -6,7 +6,7 @@ Writing good and up-to-date documentation is critical for others to be able to q
 ## README file
 Always create a README file in the root directory of your project. This can be a markdown (.md) or text (.txt) file. It will be the entry point for visitors to your project. First, include a description of your project. If it is multiple paragraphs, provide a short summary in the beginning.
 
-Your readme file will also be automatically detected by GitHub (and if it is written as a Markdown file also rendered) and displayed when someone visits your GitHub repository.
+> Note: Your readme file will also be automatically detected by GitHub (and if it is written as a Markdown file also rendered) and displayed when someone visits your GitHub repository.
 
 [![example](../figures/example_icon.png){:height="36px" width="36px"}](https://github.com/binste/chicago_safepassage_evaluation/blob/master/README.md){:target="_blank"}
 
@@ -28,17 +28,15 @@ conda env create -f environment.yml
 ```
 The name of the copied environment will be by default the same one you have used and can be changed in the first line of the file.
 
-Note, that the `environment.yml` file can become rather cluttered after you have installed many packages. Some of them will be system-specific dependencies which conda installed automatically and might prevent the installation of the environment on a different operating system. To make it easier for others, you might want to delete packages from the list if you don't remember installing them. You can then create a new environment from the edited file (change the name first!) and rerun your analysis, to see if it still works.
-
-[![example](../figures/example_icon.png){:height="36px" width="36px"}](https://github.com/binste/chicago_safepassage_evaluation/blob/master/environment.yml){:target="_blank"}.
+> Note: Your `environment.yml` file can become rather cluttered after you have installed many packages. Some of them will be system-specific dependencies which conda installed automatically and might prevent the installation of the environment on a different operating system. To make it easier for others, you might want to delete packages from the list if you don't remember installing them. You can then create a new environment from the edited file (change the name first!) and rerun your analysis, to see if it still works. [![example](../figures/example_icon.png){:height="36px" width="36px"}](https://github.com/binste/chicago_safepassage_evaluation/blob/master/environment.yml){:target="_blank"}.
 
 Don't forget to also include some information in the README on the operating system and the version you used.
 
 ### Hardware
-Depending on your analysis, it might have certain requirements regarding hardware. It is helpful if you specify this in the README file, such that others can better assess, if they are able to rerun the analysis on their machine. At a minimum, include some information from your machine, such as total RAM available and if a graphics card was used.
+Depending on your analysis, it might have certain requirements regarding the hardware needed to run it. It is helpful if you specify this in the README file, such that others can better assess, if they are able to rerun the analysis on their machine. At a minimum, include some information from your machine, such as total RAM available and if a graphics card was used.
 
 ### Data
-As previously mentioned, if possible (read: allowed) you should provide not only the code but also the raw data used for the analysis. Should you not be able to upload your raw data, but the data is available online for free, you can also provide a notebook or script which automatically downloads the relevant data from the internet. To do this in Python you can use [this function](../help_snippets/download_function.md).
+As previously mentioned, if possible (read: allowed) you should provide not only the code but also the raw data used for the analysis. Should you not be able to upload your raw data, but the data is available online for free, you can also provide a notebook or script, which automatically downloads the relevant data from the internet. To do this in Python you can use [this function](../help_snippets/download_function.md).
 
 If the data is not freely available online, provide an exact documentation of which files you obtained from where, how you applied for the data, and what were the costs if any. Furthermore, provide a screenshot of your `data/raw` folder such that others can better reconstruct it.
 
@@ -108,7 +106,7 @@ def load_relevant_crimes(min_date,
         is the number of rows to include in each chunk.
 
     kwargs : keyword arguments, optional
-        Further keyword arguments directly passed on to pd.read_sql_query call
+        Further keyword arguments directly passed on to pd.read_sql_query
 
     Returns
     ------
