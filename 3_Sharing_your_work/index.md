@@ -7,4 +7,4 @@ permalink: /sharing_your_work/
 
 [Where to go next](../where_to_go_next)
 
-[Back to main page](../)
+[Back to the Overview(../)

@@ -6,4 +6,4 @@ permalink: /preparation/
 2. [Set up a folder structure](./folder_structure)
 3. [How to use version control](./version_control)
 
-[Back to main page](../)
+[Back to the Overview](../)
