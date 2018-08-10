@@ -10,7 +10,8 @@ You might have already used the service which makes this possible called [mybind
 ### Setting it up
 Head over to [mybinder.org](https://mybinder.org/){:target="_blank"} and follow the instructions posted on the site. The first time you initiate the service for your repository (and everytime there is a new commit), it will take a bit longer. Afterwards, the start up time will be much faster and visitors to your project can start running a notebook in seconds.
 
-> Note: Should mybinder not be able to find your GitHub repository, you might still have it in "private" mode. Go to the settings page of your GitHub.com repository, scroll all the way down and click on the "Make this repository public" button.
+**Note**: Should mybinder not be able to find your GitHub repository, you might still have it in "private" mode. Go to the settings page of your GitHub.com repository, scroll all the way down and click on the "Make this repository public" button.
+{: .notice}
 
 ### Limited resources
 However, if your analysis has parts, which need a lot of computational ressources, they might not run on mybinder as there are some limitations. Currently, users get at least 1GB of RAM, with a maximum of 2GB. You can find up-to-date information in [the official FAQ](https://mybinder.readthedocs.io/en/latest/faq.html#user-memory){:target="_blank"}.

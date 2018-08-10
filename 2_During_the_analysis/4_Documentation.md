@@ -7,7 +7,8 @@ Writing good and up-to-date documentation is critical for others to be able to q
 ## README file
 Always create a README file in the root directory of your project. This can be a markdown (.md) or text (.txt) file. It will be the entry point for visitors to your project. First, include a description of your project. If it is multiple paragraphs, provide a short summary in the beginning.
 
-> Note: Your readme file will also be automatically detected by GitHub (and if it is written as a Markdown file also rendered) and displayed when someone visits your GitHub repository.
+**Note**: Your readme file will also be automatically detected by GitHub (and if it is written as a Markdown file also rendered) and displayed when someone visits your GitHub repository.
+{: .notice}
 
 [![example](../figures/example_icon.png){:height="36px" width="36px"}](https://github.com/binste/chicago_safepassage_evaluation/blob/master/README.md){:target="_blank"}
 
@@ -29,7 +30,8 @@ conda env create -f environment.yml
 ```
 The name of the copied environment will be by default the same one you have used and can be changed in the first line of the file.
 
-> Note: Your `environment.yml` file can become rather cluttered after you have installed many packages. Some of them will be system-specific dependencies which conda installed automatically and might prevent the installation of the environment on a different operating system. To make it easier for others, you might want to delete packages from the list if you don't remember installing them. You can then create a new environment from the edited file (change the name first!) and rerun your analysis, to see if it still works. [![example](../figures/example_icon.png){:height="36px" width="36px"}](https://github.com/binste/chicago_safepassage_evaluation/blob/master/environment.yml){:target="_blank"}
+**Note**: Your `environment.yml` file can become rather cluttered after you have installed many packages. Some of them will be system-specific dependencies which conda installed automatically and might prevent the installation of the environment on a different operating system. To make it easier for others, you might want to delete packages from the list if you don't remember installing them. You can then create a new environment from the edited file (change the name first!) and rerun your analysis, to see if it still works. [![example](../figures/example_icon.png){:height="36px" width="36px"}](https://github.com/binste/chicago_safepassage_evaluation/blob/master/environment.yml){:target="_blank"}
+{: .notice}
 
 Don't forget to also include some information in the README on the operating system and the version you used.
 

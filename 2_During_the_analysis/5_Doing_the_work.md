@@ -7,7 +7,8 @@ Apart from the documentation of your project discussed previously, there are a f
 ## Automate every single step
 This is a very important one. Never use the point-and-click capabilities of a software. Instead, use a script or notebook in your prefered programming language to run every step. This is extremely important for reproducibility.
 
-> Note: Should you really have a use case where you need to defer from this practice, document every click you make carefully and provide screenshots or a video of the process.
+**Note**: Should you really have a use case where you need to defer from this practice, document every click you make carefully and provide screenshots or a video of the process.
+{: .notice}
 
 ## Relative paths
 Always use relative instead of absolute paths throughout your code base. This is another reason why it was important to put the project into its own directory. `/Users/sbinder/repository_name/data/raw/` for example becomes `./data/raw`. Relative paths allow others to rerun the code without first adjusting any paths.
@@ -21,7 +22,8 @@ from src.prepare_data.routes import (read_routes_file, harmonize_dataframe,
 ```
 imports various functions defined outside of the notebook in the [`src/prepare_data/routes.py`](https://github.com/binste/chicago_safepassage_evaluation/blob/master/src/prepare_data/routes.py) script.
 
-> Note: [Part 5](https://www.youtube.com/watch?list=PLYCpMb24GpOC704uO9svUrihl-HY1tTJJ&time_continue=1&v=DjpCHNYQodY){:target="_blank"} of Jake Vanderplas' Reproducible Data Analysis series goes more in-depth on the topic and is certainly worth watching.
+**Note**: [Part 5](https://www.youtube.com/watch?list=PLYCpMb24GpOC704uO9svUrihl-HY1tTJJ&time_continue=1&v=DjpCHNYQodY){:target="_blank"} of Jake Vanderplas' Reproducible Data Analysis series goes more in-depth on the topic and is certainly worth watching.
+{: .notice}
 
 Following the example above, in R you can put some functions in a separate .R script and import them by calling
 ```r
