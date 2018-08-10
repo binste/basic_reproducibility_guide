@@ -47,4 +47,4 @@ Depending on your personal workflow you might want to change the proposed folder
 
 After we have neatly arranged our project folder, [let us talk about a very important, but often neglected topic: Version control](./version_control).
 
-[Table of content: "Preparation"](.)
+[Table of content: Preparation](.)

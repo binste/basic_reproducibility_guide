@@ -46,4 +46,4 @@ Include information on what to do if sizes are above that?
 
 You now already have set up your programming environment, a well organised folder structure, as well as a version control system which will be of immense value. Maybe you have already started to clean your data in some fresh notebooks. [It is then time, to talk about documentation, such that your codebase stays tidy and you have all the important information in the right place](../during_the_analysis/documentation).
 
-[Table of content: "Preparation"](.)
+[Table of content: Preparation](.)

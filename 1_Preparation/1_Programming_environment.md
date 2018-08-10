@@ -44,4 +44,4 @@ Personally, I use [Microsoft Visual Studio Code](https://code.visualstudio.com/)
 
 You're programming environment should now be set up in a way, which not only is convenient for you, but is highly favourable for reproducible research. [Next, we will create a well structured project folder to keep everything well organised from the beginning.](./folder_structure)
 
-[Table of content: "Preparation"](.)
+[Table of content: Preparation](.)

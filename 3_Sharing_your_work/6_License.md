@@ -11,4 +11,4 @@ Select your preferred license from the website, copy the license text into a fil
 
 See, that was fast, wasn't it? [Next up is something really, really cool...](./mybinder)
 
-[Table of content: "Sharing your work"](.)
+[Table of content: Sharing your work](.)

@@ -34,4 +34,4 @@ If your project involves the use of a pseudorandom number generator (or an algor
 
 You already generated some interesting insights and might be ready to share them with the world? [Let us first quickly look at the legal aspect of licensing your work (this is a short one, I promise)](../sharing_your_work/license).
 
-[Table of content: "During the analysis"](.)
+[Table of content: During the analysis](.)
