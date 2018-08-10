@@ -1,6 +1,7 @@
 ---
 title: Installation instructions for Python
 permalink: howto_install_python
+layout: single
 ---
 For Python I recommend downloading the Anaconda distribution. It includes the previously mentioned package manager conda as well as preinstalls many useful packages to do data analysis with Python. Note that the preinstalled packages only exist in your root environment. You will create a new environment for your project, where you can easily reinstall all of them.
 

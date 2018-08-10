@@ -1,0 +1,31 @@
+main:
+  - title: "Overview"
+    url: "/"
+  - title: "Guide"
+    url: "/preparation/programming_environment"
+
+guide:
+  - title: Preparation
+    children:
+      - title: "Programming environment"
+        url: /preparation/programming_environment
+      - title: "Folder structure"
+        url: /preparation/folder_structure
+      - title: "Version control"
+        url: /preparation/version_control
+  - title: "During the analysis"
+    children:
+      - title: "Documentation"
+        url: /during_the_analysis/documentation
+      - title: "Doing the work"
+        url: /during_the_analysis/doing_the_work
+  - title: "Sharing your work"
+    children:
+      - title: "License"
+        url: /sharing_your_work/license
+      - title: "Computational environment"
+        url: sharing_your_work/mybinder
+  - title: "Where to go next"
+    children:
+      - title: "Interesting stuff"
+        url: /interesting_stuff

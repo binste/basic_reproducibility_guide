@@ -9,7 +9,7 @@ Head over to [mybinder.org](https://mybinder.org/){:target="_blank"} and follow 
 
 > Note: Should mybinder not be able to find your GitHub repository, you might still have it in "private" mode. Go to the settings page of your GitHub.com repository, scroll all the way down and click on the "Make this repository public" button.
 
-#### Limited resources
+### Limited resources
 However, if your analysis has parts, which need a lot of computational ressources, they might not run on mybinder as there are some limitations. Currently, users get at least 1GB of RAM, with a maximum of 2GB. You can find up-to-date information in [the official FAQ](https://mybinder.readthedocs.io/en/latest/faq.html#user-memory){:target="_blank"}.
 
 One option to make at least some steps of the analysis, such as plotting figures, available on mybinder, you can run all the computational expensive operations beforehand and then provide the intermediate data sets on GitHub. For an example of this, see [![example](../figures/example_icon.png){:height="36px" width="36px"}](https://github.com/binste/chicago_safepassage_evaluation#figures-for-website-and-comparison-to-mcmillen-et-al-2017){:target="_blank"}, where the binder badge leads to a notebook where the creation of the figures can be rerun, based on intermediate data sets.

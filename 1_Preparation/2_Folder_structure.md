@@ -1,6 +1,7 @@
 ---
 title: Folder structure
 permalink: /preparation/folder_structure
+toc: false
 ---
 Setting up a well structured project folder makes it not only for you easier to keep tabs of all the relevant files but also helps others to more easily find their way.
 
@@ -46,5 +47,3 @@ Depending on your personal workflow you might want to change the proposed folder
 * Put data, code, and produced reports/models into different subdirectories.
 
 After we have neatly arranged our project folder, [let us talk about a very important, but often neglected topic: Version control](./version_control).
-
-[Table of content: Preparation](.)

@@ -2,7 +2,7 @@
 title: Programming environment
 permalink: /preparation/programming_environment
 ---
-### Conda - package manager
+### Package manager
 With new versions being released, naturally, software changes its behaviour. Even though this might be desired, it can make reproducing someone elses work a lot harder, if you don't have access to the exact same software as was used in the analysis. Furthermore, if you update a tool for a project, this might break some code in another one, as the latter might depend on the old functionality of the software.
 
 Both of these issues can be solved easily, if you take them into consideration when setting up your programming environment. The key is to create a fresh installation of the software you use for a project.
@@ -43,5 +43,3 @@ Personally, I use [Microsoft Visual Studio Code](https://code.visualstudio.com/)
 > Note: Microsoft Visual Studio Code offers a very good and easily installable Python integration (you only need to install the official Python extension) as well as many other desirable features. It can also handle R scripts and many other languages. This website was written as markdown files in VS Code!
 
 You're programming environment should now be set up in a way, which not only is convenient for you, but is highly favourable for reproducible research. [Next, we will create a well structured project folder to keep everything well organised from the beginning.](./folder_structure)
-
-[Table of content: Preparation](.)

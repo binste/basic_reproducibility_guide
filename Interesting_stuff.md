@@ -1,6 +1,9 @@
 ---
-title: Where to go next
-permalink: /where_to_go_next
+title: Interesting stuff
+permalink: /interesting_stuff
+layout: single
+sidebar:
+    nav: "guide"
 ---
 This page presents a list of interesting blog posts and tutorials in no particular order. This guide was inspired by some of them.
 
@@ -25,6 +28,3 @@ This page presents a list of interesting blog posts and tutorials in no particul
 Add literature from "literature/Blog posts"
 XXX Might want to structure the above list?
 {% endcomment %}
-
-
-[Back to the overview](.)

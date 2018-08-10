@@ -9,10 +9,10 @@ This is a very important one. Never use the point-and-click capabilities of a so
 
 > Note: Should you really have a use case where you need to defer from this practice, document every click you make carefully and provide screenshots or a video of the process.
 
-### Relative paths
+## Relative paths
 Always use relative instead of absolute paths throughout your code base. This is another reason why it was important to put the project into its own directory. `/Users/sbinder/repository_name/data/raw/` for example becomes `./data/raw`. Relative paths allow others to rerun the code without first adjusting any paths.
 
-### Refactor codes
+## Refactor codes
 If you follow a notebook-based workflow, your notebooks might get cluttered with functions at one point. To increase reusability of your code and clean up your notebooks, you can put functions into a separate script and call them from inside the notebook. For an example on how this might work in Python, see [![example](../figures/example_icon.png){:height="36px" width="36px"}](https://github.com/binste/chicago_safepassage_evaluation/blob/master/notebooks/1_prepare_data/1.0-binste-routes.ipynb){:target="_blank"}. In the beginning, the statement
 ```python
 from src.prepare_data.routes import (read_routes_file, harmonize_dataframe,
@@ -29,9 +29,7 @@ source("src/prepare_data/routes.R")
 ```
 at the beginning of your Jupyter or R notebook. This will run all code in `routes.R` and therefore define all functions in it.
 
-### Use random seeds
+## Use random seeds
 If your project involves the use of a pseudorandom number generator (or an algorithm which uses one), you should explicitly set the random seed such that a rerun of the experiment gives exactly the same results.
 
 You already generated some interesting insights and might be ready to share them with the world? [Let us first quickly look at the legal aspect of licensing your work (this is a short one, I promise)](../sharing_your_work/license).
-
-[Table of content: During the analysis](.)
