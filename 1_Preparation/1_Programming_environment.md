@@ -41,7 +41,4 @@ Even if you follow a notebook-based workflow, you'll end up needing a code edito
 
 Personally, I use [Microsoft Visual Studio Code](https://code.visualstudio.com/){:target="_blank"}, but other good alternatives include [Atom](https://atom.io/){:target="_blank"} and [Sublime Text](https://www.sublimetext.com/){:target="_blank"}.
 
-**Note**: Microsoft Visual Studio Code offers a very good and easily installable Python integration (you only need to install the official Python extension) as well as many other desirable features. It can also handle R scripts and many other languages. This website was written as markdown files in VS Code!
-{: .notice}
-
 You're programming environment should now be set up in a way, which not only is convenient for you, but is highly favourable for reproducible research. [Next, we will create a well structured project folder to keep everything well organised from the beginning.](./folder_structure)

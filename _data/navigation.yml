@@ -24,7 +24,7 @@ guide:
       - title: "License"
         url: /sharing_your_work/license
       - title: "Computational environment"
-        url: sharing_your_work/mybinder
+        url: /sharing_your_work/mybinder
   - title: "Where to go next"
     children:
       - title: "Interesting stuff"

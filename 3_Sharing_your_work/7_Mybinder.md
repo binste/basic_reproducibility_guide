@@ -1,6 +1,6 @@
 ---
 title: Provide a free no-setup-needed computational environment
-permalink: sharing_your_work/mybinder
+permalink: /sharing_your_work/mybinder
 ---
 This is a topic I am really excited about. If you have used either Jupyter or R notebooks for your analysis, the repository is on GitHub, and you have created an environment.yml file as explained in the section on "Documentation", you now have the possibility to let everyone run and edit (the changes of course won't be saved) your notebooks online without any setup needed from there side.
 
@@ -24,5 +24,3 @@ For further information on mybinder.org, [the official documentation](https://my
 Another possibility for users, is to use [repo2docker](https://github.com/jupyter/repo2docker){:target="_blank"}, one of the tools behind mybinder.org. It will download the repository to the users computer and set up all the necessary dependencies in a separate environment. This frees others of the resource constraints of mybinder, but still allows for a very simple and straightforward reproduction of the results. For an example, see [![example](../figures/example_icon.png){:height="36px" width="36px"}](https://github.com/binste/chicago_safepassage_evaluation#run-analysis-on-your-own-machine){:target="_blank"}.
 
 You reached the end of this guide. If you want to learn more about reproducible research practices, check out ["Where to go next"](../where_to_go_next).
-
-[Table of content: Sharing your work](.)
