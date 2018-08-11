@@ -26,7 +26,7 @@ section of a daily newspaper.”* - [Huschka (2013)](https://www.ratswd.de/dl/Ra
 The other one is the reason of enabling future research to build upon existing one instead of creating the need to first painfully recreate what has already been done.
 
 ## Tools
-This guide is primarily written for Python and R users. Both languages are open-source, which greatly helps in making your research reproducible. Furthermore, they have huge ecosystems of extensions and tutorials. However, most of the tools and practices advertised should work with other commonly used languages for data analysis such as Stata, Julia, Scala, C++, or Matlab.
+This guide is primarily written for Python and R users. Both languages and corresponding interpreters are open-source and available for free, which greatly helps in making your research reproducible. Furthermore, they have huge ecosystems of extensions and tutorials. However, most of the tools and practices advertised should work with other commonly used languages for data analysis such as Stata, Julia, Scala, C++, or Matlab.
 
 If you want to use either Python or R and are completely new to it, I recommend that you first get up to speed with [these tutorials](/beginner_resources) before continuing with this guide. In the section on "Programming environment" I'll also go into the details on setting up Python and R in a way which is favorable for reproducible research.
 
