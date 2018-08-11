@@ -1,6 +1,6 @@
 ---
-title: Doing the work
-permalink: /during_the_analysis/doing_the_work
+title: Other stuff
+permalink: /during_the_analysis/other_stuff
 ---
 Apart from the documentation of your project discussed previously, there are a few other practices you should follow during your analysis.
 

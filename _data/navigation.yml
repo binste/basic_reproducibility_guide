@@ -17,8 +17,8 @@ guide:
     children:
       - title: "Documentation"
         url: /during_the_analysis/documentation
-      - title: "Doing the work"
-        url: /during_the_analysis/doing_the_work
+      - title: "Other stuff"
+        url: /during_the_analysis/other_stuff
   - title: "Sharing your work"
     children:
       - title: "License"

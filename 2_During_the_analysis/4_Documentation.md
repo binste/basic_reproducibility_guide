@@ -149,4 +149,4 @@ The following example, which I took from [Software development skills for data s
 
 (I myself am guilty of writing `# load data` way too many times...)
 
-Next to writting informative easily understandable documentation, [there are a few other things you should consider while doing your analsis](./doing_the_work).
+Next to writting informative easily understandable documentation, [there are a few other things you should consider while doing your analsis](./other_stuff).
