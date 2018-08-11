@@ -5,7 +5,7 @@ header:
     caption: "Photo credit: [Simon Abrams](https://unsplash.com/photos/k_T9Zj3SE8k)"
 permalink: ./
 author_profile: true
-share: false
+share: true
 toc: false
 sidebar: false
 classes: wide
