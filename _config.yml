@@ -3,6 +3,9 @@ title: "A Basic Guide to Reproducible Research"
 
 markdown: kramdown
 
+exclude:
+  - README.md
+
 author:
   name: Stefan Binder
   github: binste
