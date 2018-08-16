@@ -7,8 +7,8 @@ main:
 guide:
   - title: Preparation
     children:
-      - title: "Programming environment"
-        url: /preparation/programming_environment
+      - title: "Development environment"
+        url: /preparation/development_environment
       - title: "Folder structure"
         url: /preparation/folder_structure
       - title: "Version control"
@@ -25,7 +25,9 @@ guide:
         url: /sharing_your_work/license
       - title: "Computational environment"
         url: /sharing_your_work/mybinder
-  - title: "Where to go next"
+  - title: "Miscellaneous"
     children:
-      - title: "Interesting stuff"
+      - title: "More on reproducible research"
         url: /interesting_stuff
+      - title: "Beginner resources for Python and R"
+        url: /beginner_resources

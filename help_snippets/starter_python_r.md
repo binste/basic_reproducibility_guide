@@ -24,5 +24,3 @@ There are many great visualization libraries for Python. Matplotlib is certainly
 
 ## R
 If you want to work with R, you should take a look at [the tidyverse](https://www.tidyverse.org){:target="_blank"}, which is an "opinionated collection of R packages designed for data science." It offers a consistent grammar and helps you with everything from reading in files, manipulating them, to visualizing it. For the later it includes the famous ggplot2 library, which is really powerful (but also for R there exist many contender which are worth checking out). A great tutorial on the tidyverse can be found in the freely available book [R for Data Science](http://r4ds.had.co.nz/){:target="_blank"}.
-
-<a onclick="window.history.back()">Back</a>

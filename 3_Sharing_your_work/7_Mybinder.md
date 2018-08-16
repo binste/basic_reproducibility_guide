@@ -2,13 +2,13 @@
 title: Provide a free no-setup-needed computational environment
 permalink: /sharing_your_work/mybinder
 ---
-This is a topic I am really excited about. If you have used either Jupyter or R notebooks for your analysis, the repository is on GitHub, and you have created an environment.yml file as explained in the section on "Documentation", you now have the possibility to let everyone run and edit (the changes of course won't be saved) your notebooks online without any setup needed from there side.
+This is a topic I am really excited about. If you have used either Jupyter or R notebooks for your analysis, the repository is on GitHub, and you have created an environment.yml file as explained in the section on "Documentation", you now have the possibility to let everyone run and edit your notebooks online without any setup needed from there side (the changes of course won't be saved).
 
 ## Mybinder.org
-You might have already used the service which makes this possible called [mybinder.org](https://mybinder.org/){:target="_blank"}, as the notebooks on [the official Jupyter website's 'Try' section](http://jupyter.org/try){:target="_blank"} which were mentioned in the beginning of this guide were powered by it. For further examples, see [this collection of example repositories](https://github.com/binder-examples/), which demonstrate many awesome things you can do with mybinder.
+You might have already used the service which makes this possible called [mybinder.org](https://mybinder.org/){:target="_blank"}, as the notebooks on [the official Jupyter website's 'Try' section](http://jupyter.org/try){:target="_blank"} which were mentioned in the beginning of this guide were powered by it. For further examples, see [this collection of example repositories](https://github.com/binder-examples/), which demonstrate many awesome things you can do with mybinder.org.
 
 ### Setting it up
-Head over to [mybinder.org](https://mybinder.org/){:target="_blank"} and follow the instructions posted on the site. The first time you initiate the service for your repository (and everytime there is a new commit), it will take a bit longer. Afterwards, the start up time will be much faster and visitors to your project can start running a notebook in seconds.
+Head over to [mybinder.org](https://mybinder.org/){:target="_blank"} and follow the instructions posted on the site. The first time you initiate the service for your repository (and everytime there is a new commit), it might take a few minutes. Afterwards, the start up time will be much faster and visitors to your project can start running a notebook in seconds.
 
 **Note**: Should mybinder not be able to find your GitHub repository, you might still have it in "private" mode. Go to the settings page of your GitHub.com repository, scroll all the way down and click on the "Make this repository public" button.
 {: .notice}
