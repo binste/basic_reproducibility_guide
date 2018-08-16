@@ -95,15 +95,15 @@ In the following I propose a minimal folder structure for your project, which he
 │   │   ├── 1.0-binste-routes.ipynb
 │   │   ├── 2.0-binste-school-locations.ipynb
 │   │   └── 3.0-binste-blocks.ipynb
-│   ├── 2_crime_database
-│   │   └── 0.0-binste-crime-database.ipynb
-│   ├── 3_match
+│   ├── 2_set_up_crime_database
+│   │   └── 0.0-binste-set-up-crime-database.ipynb
+│   ├── 3_match_datasets
 │   │   ├── 0.0-binste-blocks-routes.ipynb
 │   │   ├── 1.0-binste-schools-foia.ipynb
 │   │   ├── 1.1-binste-schools-blocks.ipynb
 │   │   └── 2.0-binste-crimes-blocks.ipynb
 │   ├── 4_combine_for_analysis
-│   │   └── 0.0-binste-create_analysis_dataset.ipynb
+│   │   └── 0.0-binste-create-estimation-dataset.ipynb
 │   └── 5_analysis
 │       ├── 0.0-binste-estimation-poisson.ipynb
 │       ├── 1.0-binste-analyze-crime-results-census-block-level.ipynb
