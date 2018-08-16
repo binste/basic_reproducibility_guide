@@ -2,7 +2,7 @@ main:
   - title: "Overview"
     url: "/"
   - title: "Guide"
-    url: "/preparation/programming_environment"
+    url: "/preparation/development_environment"
 
 guide:
   - title: Preparation
