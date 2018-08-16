@@ -93,7 +93,6 @@ This is where so called *notebooks* shine. They allow you to integrate code as w
 
 ![jupyterexample](../figures/jupyter-example.png)
 
-
 {% comment %}
 Include screenshot
 {% endcomment %}

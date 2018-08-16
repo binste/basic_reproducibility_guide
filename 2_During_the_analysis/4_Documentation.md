@@ -10,7 +10,9 @@ Always create a README file in the root directory of your project. This can be a
 **Note**: Your readme file will also be automatically detected by GitHub (and if it is written as a Markdown file also rendered) and displayed when someone visits your GitHub repository.
 {: .notice}
 
-[![example](../figures/example_icon.png){:height="36px" width="36px"}](https://github.com/binste/chicago_safepassage_evaluation/blob/master/README.md){:target="_blank"}
+{% comment %}
+Add readme
+{% endcomment %}
 
 ### Data and code "pipeline"
 Another section in your README file should provide information on how to reproduce the results. You can make a numbered list of files to run in order or describe it (eg. "First execute `.../0.0-bis-download_data.ipynb`, then ..., to reproduce all the main figures and tables in the paper"). It is important that you include all the necessary steps starting from the raw data files up to the end results. To make reproducing the main tables and figures easier for visitors, you can also provide a single script/notebook which runs all the necessary files in the correct order to get from the raw data to the final results. This is extremely useful for reproducibility and also serves as sort of a documentation of your workflow. If you work with Jupyter notebooks, you can use a small script that I wrote. Click on the following link for the code and an example on how to use it:
