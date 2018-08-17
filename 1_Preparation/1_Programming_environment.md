@@ -99,8 +99,9 @@ Include screenshot
 
 A live demo will probably give you a better idea of what notebooks are. Head over to the [official Jupyter website's 'Try' section](http://jupyter.org/try){:target="_blank"} to try out example notebooks for Python, R, Julia, and C++, directly runnable in your browser without any installation! Another great example for Python is the notebook on [the discovery of gravitational waves by the LIGO collaboration](https://mybinder.org/v2/gh/minrk/ligo-binder/master?filepath=index.ipynb){:target="_blank"}. For R users, [R notebooks by RStudio](https://rmarkdown.rstudio.com/r_notebooks){:target="_blank"} are a great alternative to Jupyter notebooks and for the rest of this guide it does not matter which of the two you use.
 
-Jupyter notebooks support many more than the previously mentioned languages, and you can do your analysis in Stata, Matlab, and dozens of other languages. Head over to [this list of all available languages in Jupyter](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels){:target="_blank"} for further information on how to set them up to work with Jupyter notebooks.
+Jupyter notebooks support many more than the previously mentioned languages, and you can do your analysis in Stata, Matlab, and dozens of other languages. Head over to [this list of all available languages in Jupyter](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels){:target="_blank"} to find out if yours is among them.
 
+### Installation
 If you have followed the installation instructions given above for Python or R users, you can simply type the following command in your terminal to install Jupyter notebooks:
 ```bash
 conda install jupyter
@@ -117,4 +118,4 @@ There are many good beginner tutorials on Jupyter out there, such as [this one f
 ## Code editor
 Even if you follow a notebook-based workflow, you'll end up needing a code editor sooner or later, for example when putting functions into separate scripts to declutter your notebooks (more on this in the section "Other stuff"). If you are an R user and you have R Studio, you already have a very good editor and you can probably stop here. For R users without R Studio or Python users, I can greatly recommend [Microsoft Visual Studio Code](https://code.visualstudio.com/){:target="_blank"}, but other good alternatives include [Atom](https://atom.io/){:target="_blank"} and [Sublime Text](https://www.sublimetext.com/){:target="_blank"}.
 
-Your programming environment should now be set up in a way which not only is convenient for you, but also allows others to more easily understand and replicate your research. [Next, we will look at how to set up a folder structure that keeps everything well organized right from the beginning.](./folder_structure)
+Your development environment should now be set up in a way which not only is convenient for you, but also allows others to more easily understand and replicate your research. [Next, we will look at how to set up a folder structure that keeps everything well organized right from the beginning.](./folder_structure)

@@ -10,7 +10,7 @@ In the following I propose a minimal folder structure for your project, which he
 ├── data
 │   ├── raw            <- The original, immutable data dump
 │   ├── interim        <- Intermediate data
-│   └── processed      <- The final data sets
+│   └── processed      <- The final datasets
 │
 ├── models             <- Serialized models, summaries
 │
