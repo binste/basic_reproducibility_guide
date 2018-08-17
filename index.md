@@ -32,4 +32,4 @@ If you want to use either Python or R and are completely new to it, I recommend 
 ## Showing is better than telling
 Next to this website, I created a data analysis using Python, where I look at geo-tagged crime data, to assess the effectiveness of a crime prevention program in Chicago. Throughout this guide, I will use the analysis as an example to showcase the tools and practices advertised, such that you can see them directly applied on a project. If you are interested, you can find an overview of the analysis [here](https://binste.github.io/chicago_safepassage_evaluation/){:target="_blank"}, however, it is not required for the rest of this guide.
 
-[Let's dive right in and set up the software.](./preparation/development_environment)
+[Let's dive right in and set up some tools.](./preparation/development_environment)
