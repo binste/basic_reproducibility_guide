@@ -27,9 +27,9 @@ guide:
         url: /sharing_your_work/mybinder
   - title: "Miscellaneous"
     children:
-      - title: "More on reproducible research"
-        url: /interesting_stuff
       - title: "Beginner resources for Python and R"
         url: /beginner_resources
+      - title: "More on reproducible research"
+        url: /interesting_stuff
       - title: "Example project"
         url: https://binste.github.io/chicago_safepassage_evaluation/
