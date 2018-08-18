@@ -18,7 +18,7 @@ If you follow a notebook-based workflow, your notebooks might get cluttered with
 
 <details>
 <summary>Show notebook</summary>
-<iframe src="https://nbviewer.jupyter.org/github/binste/chicago_safepassage_evaluation/blob/master/notebooks/3_match/2.0-binste-crimes-blocks.ipynb" height="1100" width="100%" style="border:none;"></iframe>
+<iframe src="https://nbviewer.jupyter.org/github/binste/chicago_safepassage_evaluation/blob/master/notebooks/3_match_datasets/2.0-binste-crimes-blocks.ipynb" height="1100" width="100%" style="border:none;"></iframe>
 </details><br />
 
 In the beginning, the line
@@ -85,13 +85,13 @@ def load_relevant_crimes(min_date,
 **Note**: For more information on how to refactor your Jupyter notebooks, see [Part 5](https://www.youtube.com/watch?list=PLYCpMb24GpOC704uO9svUrihl-HY1tTJJ&time_continue=1&v=DjpCHNYQodY){:target="_blank"} of Jake Vanderplas' Reproducible Data Analysis series.
 {: .notice}
 
-For R users, the process is exactly the same and you can import functions defined in an .R script by calling (sticking with the above example):
+For R users, the process is exactly the same, and you can import functions defined in an .R script by calling (sticking with the above example):
 ```r
 source("src/prepare_data/crime_database.R")
 ```
 at the beginning of your notebook, be it Jupyter or R.
 
 ## Use random seeds
-If your project involves the use of a pseudorandom number generator (or an algorithm which uses one), you should explicitly set the random seed such that a rerun of the experiment gives exactly the same results.
+Another random but important note: If your project involves the use of a pseudorandom number generator (or an algorithm which uses one), you should explicitly set the random seed such that a rerun of the experiment gives exactly the same results.
 
-You already generated some interesting insights and might be ready to share them with the world? [Let us first quickly look at the legal aspect of licensing your work (this is a short one, I promise)](../sharing_your_work/license).
+So assume you've finished your first research project that adheres to the basic tools and principles of reproducible research outlined in this guide, and you're now ready to share your work with the world through GitHub. [In order to do this, we need to spend 60 seconds talking about the legal aspect of licensing your work.](../sharing_your_work/license).

@@ -17,9 +17,20 @@ In R, you can use standard inline comments:
 # Contains various helper functions
 # to load crimes from the SQL database.
 ```
-In notebooks (be it Jupyter or R), you should use the markdown functionality to do the same and optionally also add a table of content. For Jupyter notebooks this can be done with the [toc2 extension](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/toc2/README.html).
+In notebooks (be it Jupyter or R), you should use the markdown functionality to do the same and optionally also add a table of contents. For Jupyter notebooks this can be done with the [toc2 extension](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/toc2/README.html){:target="_blank"}.
 
 ![jupytermdtoc](../figures/jupyter-md-toc.png)
+
+For R notebooks, you can add the `toc: true` option to the header of your notebook. Here is a little example on how to implement it:
+```r
+---
+title: "Your awesome R notebook"
+output:
+  html_document:
+    toc: true
+---
+```
+As an R notebook user, head over to [bookdown.org](https://bookdown.org/yihui/rmarkdown/html-document.html) for more information.
 
 ### Functions and classes
 #### Python
@@ -110,10 +121,10 @@ def load_relevant_crimes(min_date,
 The first sentence of the docstring briefly summarizes the main purpose of the function. A subsequent paragraph could go into more detail if needed (see the extended example). The `Parameters` section names all function arguments (e.g. `shapefile_path`), their type (e.g. `str`), additional information such as the format or if it is an optional argument if applicable, as well as an explanation. The `Returns` section names the type of the returned object and gives a brief description.
 
 #### R
-In R you can use the lines just before defining a function to do the same. A good introduction can be found in the [tidyverse style guide](http://style.tidyverse.org/documentation.html){:target="_blank"}.
+In R, you can use the lines just before defining a function to do the same. A good introduction can be found in the [tidyverse style guide](http://style.tidyverse.org/documentation.html){:target="_blank"}.
 
 ### Inline
-Throughout your script or notebook, you should provide information on assumptions you make and reasons for why you do non-obvious steps. Remember, this not only helps others, but also yourself!
+Throughout your script or notebook, you should provide information on assumptions you make and reasons for why you perform non-obvious steps. Remember, this not only helps others, but also yourself!
 
 > “Code tells you how, comments tell you why.” — [Jeff Atwood (Coding Horror)](https://blog.codinghorror.com/code-tells-you-how-comments-tell-you-why/){:target="_blank"}
 
@@ -133,12 +144,12 @@ The following example, which I took from Trey Causey, summarizes rather well wha
 > df = pd.read_csv('data.csv', skiprows=2)
 > ```
 
-*<small>Source: [Software development skills for data scientists - treycausey.com](http://treycausey.com/software_dev_skills.html)</small>*
+*<small>Source: [Software development skills for data scientists - treycausey.com](http://treycausey.com/software_dev_skills.html){:target="_blank"}</small>*
 
 (I myself am guilty of writing `# load data` way too many times...)
 
 ## Data
-Without documenting what data you used for your analysis, it will be almost impossible to reproduce any results at all. You should therefore always provide exact and up to date information about your raw data files. The following is a non-exhaustive lists of points to include:
+Without documenting what data you used for your analysis, it will be almost impossible to reproduce any results at all. You should therefore always provide exact and up-to-date information about your raw data files. The following is a non-exhaustive list of points to include:
 
 * Name of file or folder in `data/raw`
     * If the dataset consists of too many files to list, you can just mention the name of the folder which contains all the files.
@@ -156,9 +167,9 @@ Without documenting what data you used for your analysis, it will be almost impo
 
 Should you not be able to provide the raw data files, it is also very helpful to provide a screenshot of the `data/raw` folder such that others can better reconstruct it.
 
-Where you want to put this information depends on the project you are doing. In an academic paper, some of the information might land up in the paper itself or an appendix. However, you can also just write a simple text document or something like an Excel file and put it in the folder `data/raw`. If your data can be downloaded for free, but you are not able to host all of it on GitHub, I highly recommend you to write a Jupyter or R notebook, which automatically downloads all the necessary files from the original sources and puts them in the correct folder. You can then also include the above gathered information, which is not already contained in the code of the notebook, in form of a markdown table or plain text.
+Where you want to put this information depends on the project you are doing. In an academic paper, some of the information might land up in the paper itself or in an appendix. However, you can also just write a simple text document or something like an Excel file and put it in the folder `data/raw`. If your data can be downloaded for free, but you are not able to host all of it on GitHub, I highly recommend to write a Jupyter or R notebook that automatically downloads all the necessary files from the original sources and puts them in the correct folder. You can then also include the above gathered information, if it is not already contained in the code of the notebook, in form of a markdown table or plain text.
 
-To download a file with Python, I have prepared a function, which you should be able to just copy and use for your own project:
+To download a file with Python, I have prepared a function which you should be able to just copy and use for your own project:
 
 {% capture download-function %}
 ```python
@@ -250,7 +261,7 @@ def download_file(url,
 <iframe src="https://nbviewer.jupyter.org/github/binste/chicago_safepassage_evaluation/blob/master/notebooks/0_download_data/0.0-binste-download-data.ipynb" height="1100" width="100%" style="border:none;"></iframe>
 </details><br />
 
-**Note**: Don't forget to reference your data documentation in the README file of your project, to which we will get in the section XXX.
+**Note**: Don't forget to reference your data documentation in the readme file of your project, to which we will get in the corresponding section.
 {: .notice}
 
-Next to writing informative easily understandable documentation, [there are a few other things you should consider while doing your analysis](./other_stuff).
+Next to writing informative and easily understandable documentation, [there are a few other things you should consider while doing your analysis](./other_stuff).
