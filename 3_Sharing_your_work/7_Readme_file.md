@@ -2,6 +2,9 @@
 title: Readme file
 permalink: /sharing_your_work/readme_file
 toc: false
+header:
+    overlay_image: /figures/rayi-christian-wicaksono-366-unsplash_cropped.jpg
+    caption: "<small>Photo credit: <a href='https://unsplash.com/photos/6PF6DaiWz48' target='_blank'>Rayi Christian Wicaksono</a></small>"
 ---
 {% include toc title="On this page" %}
 There is one last thing I want to talk about, which is how to tie what we have looked at so far together in a readme file. The readme file will be the entry point for visitors to your project on GitHub. We will use it to explain what is contained in the repository and how this can be used to reproduce the results. You can write the readme file as a markdown (.md) or text (.txt) file, and it will be automatically detected by GitHub and displayed when someone visits your repository. In the following, I'll talk about what sections to include and what they should contain.
@@ -96,7 +99,7 @@ I used a MacBook Pro (macOS High Sierra 10.13.5) 3.1 GHz Intel Core i5 with 16 G
 {% endcapture %}
 
 <details>
-<summary>Show readme file of example project</summary>
+<summary style="cursor:pointer">Show readme file of example project</summary>
 <small>
 <div style="background-color:#eef7fa">
 {{ readme-example | markdownify }}
@@ -176,7 +179,7 @@ dependencies:
 {% endcapture %}
 
 <details>
-<summary>Show example environment.yml file</summary>
+<summary style="cursor:pointer">Show example environment.yml file</summary>
 <small>
 {{ environment-yml | markdownify }}
 </small>
@@ -320,7 +323,7 @@ if __name__ == '__main__':
 {% endcapture %}
 
 <details>
-  <summary>Show script to run multiple Jupyter notebooks in order</summary>
+  <summary style="cursor:pointer">Show script to run multiple Jupyter notebooks in order</summary>
   <small>
   {{ runscript | markdownify }}
   </small>

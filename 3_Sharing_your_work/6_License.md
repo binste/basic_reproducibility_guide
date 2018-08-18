@@ -2,6 +2,9 @@
 title: License
 permalink: /sharing_your_work/license
 toc: false
+header:
+    overlay_image: /figures/rayi-christian-wicaksono-366-unsplash_cropped.jpg
+    caption: "<small>Photo credit: <a href='https://unsplash.com/photos/6PF6DaiWz48' target='_blank'>Rayi Christian Wicaksono</a></small>"
 ---
 >*"When you make a creative work (which includes code), the work is under exclusive copyright by default. Unless you include a license that specifies otherwise, nobody else can use, copy, distribute, or modify your work without being at risk of take-downs, shake-downs, or litigation. Once the work has other contributors (each a copyright holder), “nobody” starts including you."* - [choosealicense.com](https://choosealicense.com/){:target="_blank"}
 

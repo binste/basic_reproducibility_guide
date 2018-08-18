@@ -1,6 +1,9 @@
 ---
 title: Documentation
 permalink: /during_the_analysis/documentation
+header:
+    overlay_image: /figures/rayi-christian-wicaksono-366-unsplash_cropped.jpg
+    caption: "<small>Photo credit: <a href='https://unsplash.com/photos/6PF6DaiWz48' target='_blank'>Rayi Christian Wicaksono</a></small>"
 ---
 Writing good and up-to-date documentation on your code as well as your data is critical for others as well as yourself to be able to understand what you did and especially why. I highly recommend to integrate writing documentation tightly into your workflow, as it is way easier to continuously note down important information as it arises instead of trying to retrieve it at the end of a project.
 
@@ -112,7 +115,7 @@ def load_relevant_crimes(min_date,
 {% endcapture %}
 
 <details>
-<summary>Show another, more extended, example of a documented function</summary>
+<summary style="cursor:pointer">Show another, more extended, example of a documented function</summary>
 <small>
 {{ extended-function | markdownify }}
 </small>
@@ -250,14 +253,14 @@ def download_file(url,
 {% endcapture %}
 
 <details>
-<summary>Show download function</summary>
+<summary style="cursor:pointer">Show download function</summary>
 <small>
 {{ download-function | markdownify }}
 </small>
 </details>
 
 <details>
-<summary>Show a full "download-data" Jupyter notebook which contains information and sources on all raw data files</summary>
+<summary style="cursor:pointer">Show a full "download-data" Jupyter notebook which contains information and sources on all raw data files</summary>
 <iframe src="https://nbviewer.jupyter.org/github/binste/chicago_safepassage_evaluation/blob/master/notebooks/0_download_data/0.0-binste-download-data.ipynb" height="1100" width="100%" style="border:none;"></iframe>
 </details><br />
 

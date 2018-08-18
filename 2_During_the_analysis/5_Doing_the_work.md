@@ -1,6 +1,9 @@
 ---
 title: Other stuff
 permalink: /during_the_analysis/other_stuff
+header:
+    overlay_image: /figures/rayi-christian-wicaksono-366-unsplash_cropped.jpg
+    caption: "<small>Photo credit: <a href='https://unsplash.com/photos/6PF6DaiWz48' target='_blank'>Rayi Christian Wicaksono</a></small>"
 ---
 Apart from the documentation of your project discussed previously, there are a few other practices you should follow during your analysis.
 
@@ -17,7 +20,7 @@ Another thing that is important to remember is to always use relative instead of
 If you follow a notebook-based workflow, your notebooks might get cluttered with a lot of code at one point which you might even end up copying from one notebook to the next. To increase the reusability of your code and clean up your notebooks, you can put code into functions and then into a separate script. This allows to import the same functions in multiple notebooks. If you have, for example, some code which loads data from a SQL database, and you want to do this in multiple notebooks, this would be a perfect use case for a function in a separate script. You can see this example implemented in the following Jupyter notebook:
 
 <details>
-<summary>Show notebook</summary>
+<summary style="cursor:pointer">Show notebook</summary>
 <iframe src="https://nbviewer.jupyter.org/github/binste/chicago_safepassage_evaluation/blob/master/notebooks/3_match_datasets/2.0-binste-crimes-blocks.ipynb" height="1100" width="100%" style="border:none;"></iframe>
 </details><br />
 
@@ -75,7 +78,7 @@ def load_relevant_crimes(min_date,
 {% endcapture %}
 
 <details>
-<summary>Show function in crime_database.py</summary>
+<summary style="cursor:pointer">Show function in crime_database.py</summary>
 <small>
 {{ crime-database-script | markdownify }}
 </small>

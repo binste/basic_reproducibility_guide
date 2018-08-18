@@ -2,6 +2,9 @@
 title: Development environment
 permalink: /preparation/development_environment
 toc: false
+header:
+    overlay_image: /figures/rayi-christian-wicaksono-366-unsplash_cropped.jpg
+    caption: "<small>Photo credit: <a href='https://unsplash.com/photos/6PF6DaiWz48' target='_blank'>Rayi Christian Wicaksono</a></small>"
 ---
 {% include toc title="On this page" %}
 ## Package and environment manager
@@ -44,7 +47,7 @@ For more information on how to use conda environments, see [the official documen
 {% endcapture %}
 
 <details>
-  <summary>Continue with the instructions for Python users</summary>
+  <summary style="cursor:pointer">Continue with the instructions for Python users</summary>
 <small>
 <div style="background-color:#eef7fa">
   {{ python-text | markdownify }}
@@ -94,7 +97,7 @@ conda deactivate
 For more information on how to use conda environments, see [the official documentation](https://conda.io/docs/user-guide/tasks/manage-environments.html).
 {% endcapture %}
 <details>
-  <summary>Continue with the instructions for R users</summary>
+  <summary style="cursor:pointer">Continue with the instructions for R users</summary>
 <small>
 <div style="background-color:#eef7fa">
   {{ r-text | markdownify }}

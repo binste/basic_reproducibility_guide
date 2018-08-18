@@ -1,6 +1,9 @@
 ---
 title: Version control
 permalink: /preparation/version_control
+header:
+    overlay_image: /figures/rayi-christian-wicaksono-366-unsplash_cropped.jpg
+    caption: "<small>Photo credit: <a href='https://unsplash.com/photos/6PF6DaiWz48' target='_blank'>Rayi Christian Wicaksono</a></small>"
 ---
 Putting your project under version control can greatly help you make your project reproducible. It lets you try out different versions of an analysis and still revert back to a previous one. Furthermore, it can save you a lot of time down the line when you want to track down a bug and you are not sure when it got introduced or how the code looked before you changed that one buggy function.
 

@@ -2,6 +2,9 @@
 title: Folder structure
 permalink: /preparation/folder_structure
 toc: false
+header:
+    overlay_image: /figures/rayi-christian-wicaksono-366-unsplash_cropped.jpg
+    caption: "<small>Photo credit: <a href='https://unsplash.com/photos/6PF6DaiWz48' target='_blank'>Rayi Christian Wicaksono</a></small>"
 ---
 Setting up a well-structured project folder makes it significantly easier for you to keep tabs on all the relevant files, and of course it allows others to more quickly get an overview and find what they are looking for.
 
