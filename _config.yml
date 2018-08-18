@@ -2,7 +2,6 @@ remote_theme: "mmistakes/minimal-mistakes"
 title: "A Basic Guide to Reproducible Research"
 
 markdown: kramdown
-kramdown:
 
 exclude:
   - README.md

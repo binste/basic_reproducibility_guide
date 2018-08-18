@@ -31,5 +31,14 @@ guide:
         url: /beginner_resources
       - title: "More on reproducible research"
         url: /interesting_stuff
-      - title: "Example project"
-        url: https://binste.github.io/chicago_safepassage_evaluation/
+  - title: "Example project"
+    url: /example_project/introduction
+    children:
+      - title: "Introduction"
+        url: /example_project/introduction
+      - title: "Estimation strategy and results"
+        url: /example_project/estimation_and_results
+      - title: "Appendix"
+        url: https://github.com/binste/chicago_safepassage_evaluation/blob/master/reports/appendix/Appendix.pdf
+      - title: "GitHub Repository"
+        url: https://github.com/binste/chicago_safepassage_evaluation/
