@@ -13,4 +13,4 @@ Select your preferred license from the website, copy the license text into a fil
 Add link to https://github.com/binste/chicago_safepassage_evaluation/blob/master/LICENSE?
 {% endcomment %}
 
-See, that was fast, wasn't it? [Next up is something really, really cool...](./mybinder)
+See, that was fast, wasn't it? [Next up is something really, really cool...](./readme_file)
