@@ -1,11 +1,8 @@
-main:
-  - title: "Overview"
-    url: "/"
-  - title: "Guide"
-    url: "/preparation/development_environment"
-
 guide:
+  - title: Introduction
+    url: "/"
   - title: Preparation
+    url: /preparation/development_environment
     children:
       - title: "Development environment"
         url: /preparation/development_environment
@@ -14,18 +11,21 @@ guide:
       - title: "Version control"
         url: /preparation/version_control
   - title: "During the analysis"
+    url: /during_the_analysis/documentation
     children:
       - title: "Documentation"
         url: /during_the_analysis/documentation
       - title: "Other stuff"
         url: /during_the_analysis/other_stuff
   - title: "Sharing your work"
+    url: /sharing_your_work/license
     children:
       - title: "License"
         url: /sharing_your_work/license
       - title: "Readme file"
         url: /sharing_your_work/readme_file
   - title: "Miscellaneous"
+    url: /beginner_resources
     children:
       - title: "Beginner resources for Python and R"
         url: /beginner_resources
