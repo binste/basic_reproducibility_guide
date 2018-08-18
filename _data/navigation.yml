@@ -23,8 +23,8 @@ guide:
     children:
       - title: "License"
         url: /sharing_your_work/license
-      - title: "Computational environment"
-        url: /sharing_your_work/mybinder
+      - title: "Readme file"
+        url: /sharing_your_work/readme_file
   - title: "Miscellaneous"
     children:
       - title: "Beginner resources for Python and R"
