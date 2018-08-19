@@ -3,7 +3,7 @@ title: Example project - Estimation strategy and results
 permalink: /example_project/estimation_and_results
 header:
     overlay_image: /figures/accident-barrier-caution-923681_cropped.jpg
-    caption: "<small>Photo credit: [Kat Wilcox](https://www.pexels.com/photo/crime-scene-do-not-cross-signage-923681/)</small>"
+    caption: "<small>Photo credit: <a href='https://www.pexels.com/photo/crime-scene-do-not-cross-signage-923681/' target='_blank'>Kat Wilcox</a></small>"
 ---
 ## Strategy
 In the movie "Sliding Doors" (1998)[^2], we see the life of Helen in two versions. In one of them, she catches a subway train; in the other one, she misses it by a split second. What unfolds are two completely different stories of her future, and you as a viewer can see both. The movie director therefore allows us to compare the two futures of Helen and derive the exact causal effect for Helen of catching that very train. Unfortunately, when analyzing a policy such as the Safe Passage program, observing an alternate universe, where the program was never implemented, is of course impossible. If it were, policy analysis would be a piece of cake. We have to resort to finding a proxy for the unobservable scenario. Of course we will never know how good our chosen proxy really is, but statisticians have developed techniques that allow us to circumvent some of the pitfalls.
