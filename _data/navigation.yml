@@ -38,7 +38,7 @@ guide:
         url: /example_project/introduction
       - title: "Estimation strategy and results"
         url: /example_project/estimation_and_results
-      - title: "Appendix (extern)"
+      - title: "Appendix (external)"
         url: https://github.com/binste/chicago_safepassage_evaluation/blob/master/reports/appendix/Appendix.pdf
-      - title: "GitHub Repository (extern)"
+      - title: "GitHub Repository (external)"
         url: https://github.com/binste/chicago_safepassage_evaluation/
