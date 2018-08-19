@@ -245,7 +245,7 @@ The data preparation was done in Python using Jupyter notebooks. R was used for 
 > **Note**: This repository is [repo2docker](https://github.com/jupyter/repo2docker) compatible.
 
 ## Hardware
-The analysis was developed on a 3.1 GHz Intel Core i5 with 16 GB RAM. However, a reproduction of the results was tested and worked with only XXX GB RAM in a Docker container.
+The analysis was developed on a 3.1 GHz Intel Core i5 with 16 GB RAM. However, a reproduction of the results was tested and worked with only 10 GB RAM in a Docker container.
 
 ## Data
 With the exception of the crime dataset, all raw data files are provided under `data/raw`. The crime dataset is over 1.5 GB and could therefore not be hosted on GitHub. However, the notebook in the folder `0_download_data` will by default download it for you and put it in the correct folder. The information on crimes should not change much for the years used in this analysis, and a download from the original source should work.
