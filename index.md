@@ -26,9 +26,10 @@ This guide is primarily written for Python and R users, due to the fact that bot
 If you want to use Python or R but are completely new to it at this point, I recommend that you first get up to speed with some of these [tutorials](/beginner_resources) before continuing with the guide.
 
 ## Showing is better than telling
-I find it always extremely helpful to see a concept demonstrated on a practical example. That is why I created a data analysis as an example research project and throughout the guide, I will use parts of it to directly show how the advertised tools and practices could be used in a real application. In the spirit of reproducible research, the example project itself is a replication of parts of an existing paper and analyzes, using Python, geo-tagged crime data to assess the effectiveness of a crime prevention program in Chicago.
+I find it always extremely helpful to see a concept demonstrated on a practical example. That is why I created a data analysis as an example research project and throughout the guide, I will use parts of it to directly show how the advertised tools and practices could be used in a real application.
 
+The project, using Python, estimates the effect of Chicago's Safe Passage program on crime counts. The program aims at keeping students safe on their way to school by posting civilian guards along various routes to the participating schools. In the spirit of reproducible research, the example analysis itself is a replication of parts of an existing paper called ["Do More Eyes on the Street Reduce Crime? Evidence from Chicago’s Safe Passage Program"](https://ignaciomsarmiento.github.io/assets/Safe_Passage_WP.pdf) by Daniel McMillen, Ignacio Sarmiento-Barbieri, and Ruchi Singh from June 22, 2017.
 
-Throughout the guide, I will use the analysis as an example to showcase the tools and practices advertised, such that you can see them directly applied on a project. If you are interested, you can find an overview of the analysis [here](https://binste.github.io/chicago_safepassage_evaluation/){:target="_blank"}, however, it is not required for the rest of this guide.
+If you are interested, you can find an introduction to the example project [here](/example_project/introduction){:target="_blank"}, however, it is not required for the rest of this guide.
 
-[Let's dive right in and set up some tools.](./preparation/development_environment)
+[Let's dive right into the guide and set up some tools.](./preparation/development_environment)
