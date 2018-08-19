@@ -11,12 +11,15 @@ There is one last thing I want to talk about, which is how to tie what we have l
 
 {% capture readme-example %}
 ## Overview
+{:.no_toc}
 This repository contains an analysis of the effect of Chicago's Safe Passage program on crime counts. The program aims at keeping students safe on their way to school by posting civilian guards along various routes to the participating schools. The empirical approach chosen for the analysis follows one of the specifications in the working paper ["Do More Eyes on the Street Reduce Crime? Evidence from Chicago’s Safe Passage Program"](https://ignaciomsarmiento.github.io/assets/Safe_Passage_WP.pdf) by Daniel McMillen, Ignacio Sarmiento-Barbieri, and Ruchi Singh from June 22, 2017, and is an attempt to replicate their findings. For more information on the replication, as well as an introduction on the topic and a summary of the analysis and the results, see the corresponding [website](https://binste.github.io/chicago_safepassage_evaluation/).
 
 This policy evaluation is one of two parts of my master thesis (2018) at the University of Zurich under the supervision of [Prof. Pietro Biroli](https://sites.google.com/site/pietrobiroli/home). The second one is [A Basic Guide to Reproducible Research](https://binste.github.io/basic_reproducibility_guide/), where this analysis serves as an example.
 
 ## Replicate analysis
+{:.no_toc}
 ### Compare results to McMillen et al. (2017) and replicate figures from website
+{:.no_toc}
 By clicking on the badge below, you can compare the results to the ones of McMillen et al. (2017) and replicate the figures used on the website  of the analysis, all directly in your browser without any setup required.
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/binste/chicago_safepassage_evaluation/master?filepath=notebooks%2F5_analysis%2F1.0-binste-analyze-crime-results-census-block-level.ipynb)
@@ -26,9 +29,11 @@ For a static version of the same Jupyter notebook, click on
 [![nbviewer](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github/binste/chicago_safepassage_evaluation/blob/master/notebooks/5_analysis/1.0-binste-analyze-crime-results-census-block-level.ipynb)
 
 ### Run analysis on your own machine
+{:.no_toc}
 Due to resource constraints on the above used service called mybinder.org, you can not run the estimations of the Poisson regression or even start out from the raw data files in your browser. If you want to do that, you need to do it on your own machine. To do it, you might want to choose one of the following two options, depending on your knowledge and your goal.
 
 #### Set up a conda environment
+{:.no_toc}
 If you want to continue working on this project, your best option might be to clone the repository:
 ```bash
 git clone https://github.com/binste/chicago_safepassage_evaluation
@@ -47,6 +52,7 @@ See [Order of execution](#order-of-execution) on how to proceed.
 This approach should give you the exact same Python and R version as well as the same versions of the main packages used. However, system dependencies might differ and I was not able to test it on a Windows machine. Should you experience any problem with this, you might want to try out the next approach.
 
 #### Run it in a Docker container
+{:.no_toc}
 If you want to rerun the analysis in an isolated and tested environment, you can use the amazing tool repo2docker. It will copy the repository on your own computer and setup everything for you in an isolated and OS independent environment (using Docker). However, if you are not familiar with Docker, it is not straightforward to save any changes you make to the files.
 
 1. Install the [Docker Community Edition](https://store.docker.com/search?type=edition&offering=community) for your operating system
@@ -67,6 +73,7 @@ If you want to rerun the analysis in an isolated and tested environment, you can
 See [Order of execution](#order-of-execution) on how to proceed.
 
 ### Data
+{:.no_toc}
 For a detailed description of all data sources used, see the section "Data" in the Appendix (XXX).
 
 With the exception of the crime dataset, all raw data files are provided under `data/raw`. The crime dataset is over 1.5 GB and could therefore not be hosted on GitHub. However, the notebook in the folder `0_download_data` will by default download it for you and put it in the correct folder. The information on crimes should not change much for the years used in this analysis and therefore a download from the original source should work.
@@ -74,6 +81,7 @@ With the exception of the crime dataset, all raw data files are provided under `
 Some of the processed datasets are included. However, the dataset used to estimate the Poisson regressions (`est_df`) could, due to its size, not be uploaded to GitHub. It will be reproduced if you follow the order of execution explained in the following.
 
 ### Order of execution
+{:.no_toc}
 To reconstruct the results starting out from the raw data, run all notebooks in the `notebooks` folders in order of their numbering. No other scripts have to be run apart from the notebooks. The `src` folder does contain scripts with only functions, which are imported by the notebooks.
 
 Should you want to run the whole pipeline with one command you can do this using the Python script `run_ipynb.py` which resides in the root folder of the project. Note however, that this will not give you much of an indication on the progress of the computations, you'll only see the name of the notebook currently processed. In the "Home" view of Jupyter notebook (where you can open files), click on the top right on "New" -> "Terminal". Now you should be able to run the following command to rerun the whole analysis from the raw data files to the end results:
@@ -85,6 +93,7 @@ python run_ipynb.py 0_download_data 1_prepare_data 2_crime_database 3_match 4_co
 This can take up to multiple hours, depending on your hardware.
 
 ### Analysis notebooks
+{:.no_toc}
 As the analysis notebooks are probably of the most interest, as they produce the main figures and results, the main two are briefly described in the following. They can be found in the folder `notebooks/5_analysis`.
 
 | Notebook | Description |
@@ -95,6 +104,7 @@ As the analysis notebooks are probably of the most interest, as they produce the
 > **Tip**: To view static versions of the Jupyter notebooks in your browser, you can paste their url into [Jupyter nbviewer](http://nbviewer.jupyter.org/).
 
 ### Hardware
+{:.no_toc}
 I used a MacBook Pro (macOS High Sierra 10.13.5) 3.1 GHz Intel Core i5 with 16 GB RAM to develop the project. No graphic card is needed. The end results were tested and replicated in a Docker container, as explained [above](#run-it-in-a-docker-container).
 {% endcapture %}
 
@@ -327,4 +337,6 @@ if __name__ == '__main__':
   <small>
   {{ runscript | markdownify }}
   </small>
-</details>
+</details><br />
+
+You have reached the end of this guide and I hope it was of help to you. If you want to learn more about good practices, useful tools and reproducible research in general, head over [to this list](interesting_stuff), which contains various blog posts, tutorials, and papers on the topic. Else, you could also take a closer look at the [example project](example_project/introduction) and [the code and data behind it](https://github.com/binste/chicago_safepassage_evaluation/).

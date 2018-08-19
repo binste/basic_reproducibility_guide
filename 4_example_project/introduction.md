@@ -1,5 +1,5 @@
 ---
-title: Introduction
+title: Example project - Introduction
 permalink: /example_project/introduction
 header:
     overlay_image: /figures/accident-barrier-caution-923681_cropped.jpg
