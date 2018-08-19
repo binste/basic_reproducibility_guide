@@ -64,6 +64,7 @@ dependencies:
   - kealib=1.4.7
   - pip=10.0.1
   - python=3.6.5
+  - poppler=0.60.1
   - requests=2.19.1
   - scipy=1.1.0
   - seaborn=0.8.1
@@ -73,7 +74,8 @@ dependencies:
   - tqdm=4.23.4
   - widgetsnbextension=3.2.1
   - xlrd=1.1.0
-  - r-essentials=3.4.3
+  - r-base=3.4.3
+  - r-tidyverse=1.2.1
   - rpy2=2.9.1
   - pip:
     - cython==0.28.2
