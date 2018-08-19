@@ -8,7 +8,7 @@ header:
 Apart from the documentation of your project discussed previously, there are a few other practices you should follow during your analysis.
 
 ## Automate every single step
-This is an extremely important point in making your research reproducible. Never use the point-and-click capabilities of a software to perform a step in your analysis. Instead, use a script or notebook in your prefered programming language to run everything, from data preparation, over visualization, up to the modeling.
+This is an extremely important point in making your research reproducible. Never use the point-and-click capabilities of a software to perform a step in your analysis. Instead, use a script or notebook in your preferred programming language to run everything, from data preparation, over visualization, up to the modeling.
 
 **Note**: Should you really need to defer from this practice, document every click you make carefully and provide screenshots or a video of the process.
 {: .notice}

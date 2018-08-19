@@ -117,7 +117,7 @@ A live demo will probably give you a better idea of what notebooks are. Head ove
 Jupyter notebooks support many more than just the previously mentioned languages, and you can do your analysis in Stata, Matlab, and dozens of other languages. Head over to [this list of all available languages in Jupyter](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels){:target="_blank"} to find out if yours is among them.
 
 ### Installation
-If you have followed the above installation instructions for Miniconda, you can simply type the following command intp your terminal to install Jupyter notebooks:
+If you have followed the above installation instructions for Miniconda, you can simply type the following command into your terminal to install Jupyter notebooks:
 ```bash
 conda install jupyter
 ```
