@@ -267,4 +267,4 @@ def download_file(url,
 **Note**: Don't forget to reference your data documentation in the readme file of your project, to which we will get in the corresponding section.
 {: .notice}
 
-Next to writing informative and easily understandable documentation, [there are a few other things you should consider while doing your analysis](./other_stuff).
+Next to writing informative and easily understandable documentation, [there are a few other things you should consider while doing your analysis](./coding_practices).

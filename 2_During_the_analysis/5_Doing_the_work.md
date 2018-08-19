@@ -1,6 +1,6 @@
 ---
-title: Other stuff
-permalink: /during_the_analysis/other_stuff
+title: Coding practices
+permalink: /during_the_analysis/coding_practices
 header:
     overlay_image: /figures/rayi-christian-wicaksono-366-unsplash_cropped.jpg
     caption: "<small>Photo credit: <a href='https://unsplash.com/photos/6PF6DaiWz48' target='_blank'>Rayi Christian Wicaksono</a></small>"
