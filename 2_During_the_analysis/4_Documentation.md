@@ -33,7 +33,7 @@ output:
     toc: true
 ---
 ```
-As an R notebook user, head over to [bookdown.org](https://bookdown.org/yihui/rmarkdown/html-document.html) for more information.
+As an R notebook user, head over to [bookdown.org](https://bookdown.org/yihui/rmarkdown/html-document.html){:target="_blank"} for more information.
 
 ### Functions and classes
 #### Python

@@ -14,7 +14,7 @@ If you are a Python or R user, both of these issues can be solved easily by usin
 
 ![condaenvironments](../figures/conda_environments.jpeg)
 {: .full}
-*<small>Source: [Why you need Python environments and how to manage them with Conda - Medium](https://medium.freecodecamp.org/why-you-need-python-environments-and-how-to-manage-them-with-conda-85f155f4353c)</small>*
+*<small>Source: [Why you need Python environments and how to manage them with Conda - Medium](https://medium.freecodecamp.org/why-you-need-python-environments-and-how-to-manage-them-with-conda-85f155f4353c){:target="_blank"}</small>*
 
 ### Installation
 The first step on the above illustration refers to the installer of conda, for which we will use [Miniconda](https://conda.io/miniconda.html){:target="_blank"}, as it is the most lightweight way to install conda on any of the common operating systems. When downloading Miniconda, you will need to choose between Python 2 and 3, regardless of whether you are a Python or R user (don't worry, R users, you won't need to write anything in Python). In any case, download the Python 3 version of Miniconda and install it. If you need help, check out [the official installation guide for your operating system](https://conda.io/docs/user-guide/install/index.html#regular-installation){:target="_blank"}.
@@ -43,7 +43,7 @@ To get back to the root environment, simply type the following into your termina
 conda deactivate
 ```
 
-For more information on how to use conda environments, see [the official documentation](https://conda.io/docs/user-guide/tasks/manage-environments.html).
+For more information on how to use conda environments, see [the official documentation](https://conda.io/docs/user-guide/tasks/manage-environments.html){:target="_blank"}.
 {% endcapture %}
 
 <details>
@@ -94,7 +94,7 @@ To get back to the root environment, simply type the following into your termina
 conda deactivate
 ```
 
-For more information on how to use conda environments, see [the official documentation](https://conda.io/docs/user-guide/tasks/manage-environments.html).
+For more information on how to use conda environments, see [the official documentation](https://conda.io/docs/user-guide/tasks/manage-environments.html){:target="_blank"}.
 {% endcapture %}
 <details>
   <summary style="cursor:pointer">Continue with the instructions for R users</summary>

@@ -9,7 +9,7 @@ header:
 In the movie "Sliding Doors" (1998)[^2], we see the life of Helen in two versions. In one of them, she catches a subway train; in the other one, she misses it by a split second. What unfolds are two completely different stories of her future, and you as a viewer can see both. The movie director therefore allows us to compare the two futures of Helen and derive the exact causal effect for Helen of catching that very train. Unfortunately, when analyzing a policy such as the Safe Passage program, observing an alternate universe, where the program was never implemented, is of course impossible. If it were, policy analysis would be a piece of cake. We have to resort to finding a proxy for the unobservable scenario. Of course we will never know how good our chosen proxy really is, but statisticians have developed techniques that allow us to circumvent some of the pitfalls.
 
 ### Difference in differences
-In this analysis, instead of observing the life of Helen, we will follow the evolution of violent-crime counts. The crime count data points we'll be working with are aggregated by census block in Chicago and by month per school year between January 2006 and June 2016 (click on the "launch binder" badge in the [Overview](./index.md) if you're interested in looking at the aggregation in more detail). This time frame allows for observing the evolution of crime in Chicago even before the start of the Safe Passage program in 2009 -- a data feature that will be very helpful for identifying the effect of the program with the chosen strategy. In the following, I will try to describe this strategy and convey the intuition behind it with a little example.
+In this analysis, instead of observing the life of Helen, we will follow the evolution of violent-crime counts. The crime count data points we'll be working with are aggregated by census block in Chicago and by month per school year between January 2006 and June 2016 (click on the "launch binder" badge in the [Introduction](./introduction) if you're interested in looking at the aggregation in more detail). This time frame allows for observing the evolution of crime in Chicago even before the start of the Safe Passage program in 2009 -- a data feature that will be very helpful for identifying the effect of the program with the chosen strategy. In the following, I will try to describe this strategy and convey the intuition behind it with a little example.
 
 Let us imagine a fictional census block which intersects with street frequently used by kids to get to and from school. Due to various crime incidents, at the start of the school year 2012-2013, the City of Chicago implemented the Safe Passage program for this very street, meaning that civilian guards protect the children on their way to school. In our analysis, we would then mark this census block as "treated" (i.e. directly affected by the program) for all subsequent months. If we want to know the effect of the guards, one idea could be to compare average crime counts per month before and after the program was implemented. Let's say we observe a reduction of 2 violent crimes per month. This scenario is shown with the blue line in the figure below (ignore the red lines for now).
 
@@ -34,14 +34,14 @@ McMillen et al. (2017)[^1] further subdivide the control blocks into three group
 ![block_groups](../figures/blockgroups.png)
 {: .full}
 *<font size="-1">Example using the Safe Passage route of Bogan High School in the school year 2013-2014 as well as the surrounding blocks.<br />
-Data sources: See the section "Data" in the <a href="https://github.com/binste/chicago_safepassage_evaluation/tree/master/reports/appendix/Appendix.pdf" target="_blank">Appendix</a></font>*
+Data sources: See the section "Data" in the <a href="https://github.com/binste/chicago_safepassage_evaluation/tree/master/reports/appendix/Appendix.pdf" target="_blank">Appendix</a></font>.*
 
 This categorization of control blocks allows to not only more accurately assess the effect of the program on the treated blocks, but also to analyze possible displacement effects. If such effects would be present, crimes might not be prevented, but simply happen in areas close by, where the guards can't see them. The following figure shows the number of blocks over the school years that are labelled as belonging to one of the four block categories. You can see the big expansion of the program in the school year 2013-2014, which I had mentioned in the introduction.
 
 *<font size="-1">Figure 6 - Number of treated and control blocks per school year</font>*
 ![block_trend](../figures/blocktrend.png)
 {: .full}
-*<font size="-1">Data sources: See the section "Data" in the <a href="https://github.com/binste/chicago_safepassage_evaluation/tree/master/reports/appendix/Appendix.pdf" target="_blank">Appendix</a></font>*
+*<font size="-1">Data sources: See the section "Data" in the <a href="https://github.com/binste/chicago_safepassage_evaluation/tree/master/reports/appendix/Appendix.pdf" target="_blank">Appendix</a></font>.*
 
 To get a feeling for how good the comparability of treatment and control units is, we can look at the evolution of crime counts before the implementation. As the approach relies on the crime count trends of control and treated blocks to be approximately the same in absence of treatment, it is reassuring if the pre-treatment trends are similar. The following figure visualizes average violent-crime counts per block per weekday. The school years on the horizontal axis are relative to the implementation of the Safe Passage program of the corresponding "Treated" block (each control block has the closest treated block assigned to it).
 
@@ -50,7 +50,7 @@ To get a feeling for how good the comparability of treatment and control units i
 {: .full}
 *<font size="-1">To create this figure, each block needs to be assigned to exactly one group. The data used here is therefore not exactly representative of the one used in the final estimation of the effect, as there, blocks are allowed to change their status. They can for example first be a "Two over" block and then become a "One over" block, if a Safe Passage route gets implemented in an adjacent block. However, this can be seen as a close approximation.<br />
 This figure is an approximate replication of Figure 3a in McMillen et al. (2017)<br />
-Data sources: See the section "Data" in the <a href="https://github.com/binste/chicago_safepassage_evaluation/tree/master/reports/appendix/Appendix.pdf" target="_blank">Appendix</a></font>*
+Data sources: See the section "Data" in the <a href="https://github.com/binste/chicago_safepassage_evaluation/tree/master/reports/appendix/Appendix.pdf" target="_blank">Appendix</a></font>.*
 
 When looking at the overall level of the crime counts, treated blocks do suffer from more incidents then the control blocks. Therefore, even though the control blocks are right next to the treated blocks, they are not comparable in terms of the number of incidents. This again confirms that the Safe Passage program was implemented primarily in high-crime areas. However, as mentioned before, what we need for the difference-in-difference approach to make sense is that the *changes* in crime over time would be similar in absence of treatment.
 
@@ -64,7 +64,7 @@ We see that the changes in crime counts are quite similar between the different 
 {: .full}
 *<font size="-1">To create this figure, each block needs to be assigned to exactly one group. The data used here is therefore not exactly representative of the one used in the final estimation of the effect, as there, blocks are allowed to change their status. They can for example first be a "Two over" block and then become a "One over" block, if a Safe Passage route gets implemented in an adjacent block. However, this can be seen as a close approximation.<br />
 This figure is an approximate replication of Figure 3b in McMillen et al. (2017)<br />
-Data sources: See the section "Data" in the <a href="https://github.com/binste/chicago_safepassage_evaluation/tree/master/reports/appendix/Appendix.pdf" target="_blank">Appendix</a></font>*
+Data sources: See the section "Data" in the <a href="https://github.com/binste/chicago_safepassage_evaluation/tree/master/reports/appendix/Appendix.pdf" target="_blank">Appendix</a></font>.*
 
 When we look at property crimes in Figure 8, we again see rather similar pre-treatment trends (the exceptions are the 5th and 4th school year prior to the implementation). However, visually there is no clue that the implementation led to an effect on property crime, since all groups experienced a similar downwards trend.
 

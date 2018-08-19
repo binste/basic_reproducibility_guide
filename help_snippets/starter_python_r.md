@@ -14,7 +14,7 @@ For reading the most common files to manipulating tabular data, there is no way 
 
 
 ### Visualization
-There are many great visualization libraries for Python. Among them, [matplotlib](https://matplotlib.org/){:target="_blank"} is certainly the most famous one, even if it is not always the easiest one to use. Next to matplotlib, I personally really prefer a library called [altair](https://altair-viz.github.io/), which offers a more intuitive and straight forward way to visualizing your data. You can find tutorials on both in the links below:
+There are many great visualization libraries for Python. Among them, [matplotlib](https://matplotlib.org/){:target="_blank"} is certainly the most famous one, even if it is not always the easiest one to use. Next to matplotlib, I personally really prefer a library called [altair](https://altair-viz.github.io/){:target="_blank"}, which offers a more intuitive and straight forward way to visualizing your data. You can find tutorials on both in the links below:
 
 * [An Introduction to Altair - vallandingham.me](http://vallandingham.me/altair_intro.html){:target="_blank"}
 * [Jupyter Notebooks for Altair - github.com](https://github.com/altair-viz/altair_notebooks){:target="_blank"} <- Click on the "launch binder" button to try the examples live in your browser! (If you want to know how this works, check out the section on [mybinder and repo2docker](mybinder_repo2docker).)
@@ -23,4 +23,4 @@ There are many great visualization libraries for Python. Among them, [matplotlib
 * [Python Plotting With Matplotlib (Guide) - realpython.com](https://realpython.com/python-matplotlib-guide/){:target="_blank"}
 
 ## R
-If you want to work with R, you should definitely take a look at [the tidyverse](https://www.tidyverse.org){:target="_blank"}, which is an "opinionated collection of R packages designed for data science." It offers a consistent grammar and helps you with everything from reading in files, manipulating them, to visualizing it. For the later it includes the famous [ggplot2](https://ggplot2.tidyverse.org/) library, which is really powerful to create all kind of plots. A great tutorial on the tidyverse can be found in the freely available book [R for Data Science](http://r4ds.had.co.nz/){:target="_blank"}.
+If you want to work with R, you should definitely take a look at [the tidyverse](https://www.tidyverse.org){:target="_blank"}, which is an "opinionated collection of R packages designed for data science." It offers a consistent grammar and helps you with everything from reading in files, manipulating them, to visualizing it. For the later it includes the famous [ggplot2](https://ggplot2.tidyverse.org/){:target="_blank"} library, which is really powerful to create all kind of plots. A great tutorial on the tidyverse can be found in the freely available book [R for Data Science](http://r4ds.had.co.nz/){:target="_blank"}.

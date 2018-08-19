@@ -16,7 +16,7 @@ This page contains in no particular order a list of interesting blog posts, tuto
 * ["Data Science Cookiecutter Template"](http://drivendata.github.io/cookiecutter-data-science/){:target="_blank"}
 * ["Reproducible Research", Coursera](https://www.coursera.org/learn/reproducible-research){:target="_blank"}
 * [Bryan, Jennifer. "Excuse me, do you have a moment to talk about version control?," The American Statistician 72.1, 2018: 20-27](https://amstat.tandfonline.com/doi/abs/10.1080/00031305.2017.1399928?casa_token=FrgyUebyLgsAAAAA%3AhHUqKa4G2BdXeZ0TlB3m3WhvHX22EXBoCbFku0XfMiWLd2v_PAn8udQmw02zYDZXiiVl_LjVUw0D&#.W3kHZpMzbUI){:target="_blank"}
-* [Ellis, Shannon E., and Jeffrey T. Leek. "How to share data for collaboration." The American Statistician 72.1, 2018: 53-57](https://amstat.tandfonline.com/doi/full/10.1080/00031305.2017.1375987?src=recsys#.W3kHl5MzbUI)
+* [Ellis, Shannon E., and Jeffrey T. Leek. "How to share data for collaboration." The American Statistician 72.1, 2018: 53-57](https://amstat.tandfonline.com/doi/full/10.1080/00031305.2017.1375987?src=recsys#.W3kHl5MzbUI){:target="_blank"}
 * [Kitzes, Justin, et al. "The Practice of Reproducible Research"](https://www.practicereproducibleresearch.org/){:target="_blank"}
 * [Boettiger, Carl. "An introduction to Docker for reproducible research (with examples from the R environment)." ACM SIGOPS Operating Systems Review 49.1, 2015: 71-79](https://dl.acm.org/citation.cfm?id=2723882){:target="_blank"}
 * [Stodden, Victoria, and Sheila Miguez. "Best Practices for Computational Science: Software Infrastructure and Environments for Reproducible and Extensible Research", 2013](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2322276){:target="_blank"}
