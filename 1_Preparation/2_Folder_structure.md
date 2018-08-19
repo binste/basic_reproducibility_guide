@@ -8,7 +8,7 @@ header:
 ---
 Setting up a well-structured project folder makes it significantly easier for you to keep tabs on all the relevant files, and of course it allows others to more quickly get an overview and find what they are looking for.
 
-In the following I propose a minimal folder structure for your project, which heavily leans on [this excellent but more extensive folder template for data science projects](http://drivendata.github.io/cookiecutter-data-science/){:target="_blank"} (some of the folder descriptions are from there, too). However, compared to the original template, my version below focuses more on using the notebooks (introduced in the previous section) as the main analysis tool. They are contained in the `notebook` folder and its subfolders. The `src` is made up of scripts which only contain functions that can then be imported by the corresponding notebooks. The section on "Doing the work" will go more into detail on how to do this.
+In the following I propose a minimal folder structure for your project, which heavily leans on [this excellent but more extensive folder template for data science projects](http://drivendata.github.io/cookiecutter-data-science/){:target="_blank"} (some of the folder descriptions are from there too). However, compared to the original template, my version below focuses more on using the notebooks (introduced in the previous section) as the main analysis tool. They are contained in the `notebook` folder and its subfolders. The `src` is made up of scripts which only contain functions that can then be imported by the corresponding notebooks. The section on "Doing the work" will go more into detail on how to do this.
 ```
 ├── data
 │   ├── raw            <- The original, immutable data dump

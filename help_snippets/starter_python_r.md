@@ -1,5 +1,5 @@
 ---
-title: Beginner resources
+title: Beginner resources for Python and R
 permalink: beginner_resources
 layout: single
 header:

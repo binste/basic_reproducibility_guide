@@ -1,5 +1,5 @@
 ---
-title: Example project - Strategy and results
+title: Example project - Estimation strategy and results
 permalink: /example_project/estimation_and_results
 header:
     overlay_image: /figures/accident-barrier-caution-923681_cropped.jpg

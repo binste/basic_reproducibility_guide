@@ -156,7 +156,7 @@ Without documenting what data you used for your analysis, it will be almost impo
 
 * Name of file or folder in `data/raw`
     * If the dataset consists of too many files to list, you can just mention the name of the folder which contains all the files.
-    * If you have downloaded the dataset as a compressed archive (e.g. zip), additionally provide the name of the archive.
+    * If you have downloaded the dataset as a compressed archive (e.g. .zip), additionally provide the name of the archive.
 * Description
 * Date on which you downloaded/received the data
 * Source
