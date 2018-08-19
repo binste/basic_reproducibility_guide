@@ -2,6 +2,7 @@
 title: Further readings
 permalink: /further_readings
 layout: single
+toc: false
 sidebar:
     nav: "guide"
 header:
