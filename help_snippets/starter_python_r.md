@@ -2,6 +2,9 @@
 title: Beginner resources
 permalink: beginner_resources
 layout: single
+header:
+    overlay_image: /figures/rayi-christian-wicaksono-366-unsplash_cropped.jpg
+    caption: "<small>Photo credit: <a href='https://unsplash.com/photos/6PF6DaiWz48' target='_blank'>Rayi Christian Wicaksono</a></small>"
 ---
 There are many great websites online which offer courses to start with Python or R from scratch or just brush up on a few topics. Thereof, I can wholeheartedly recommend [DataCamp.com](https://www.datacamp.com/home){:target="_blank"}. But of course you don't need to spend money to learn either Python nor R. Below you can find a list of great free resources and there is a ton more out there.
 

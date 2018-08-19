@@ -4,6 +4,9 @@ permalink: /mybinder_repo2docker
 layout: single
 sidebar:
     nav: "guide"
+header:
+    overlay_image: /figures/rayi-christian-wicaksono-366-unsplash_cropped.jpg
+    caption: "<small>Photo credit: <a href='https://unsplash.com/photos/6PF6DaiWz48' target='_blank'>Rayi Christian Wicaksono</a></small>"
 ---
 I want to quickly introduce you to two awesome projects I stumbled upon while writing this guide and which I believe can really make a difference in making research accessible to a wider audience.
 
