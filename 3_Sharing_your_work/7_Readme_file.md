@@ -252,7 +252,7 @@ With the exception of the crime dataset, all raw data files are provided under `
 
 Some of the processed datasets are included. However, the dataset used to estimate the Poisson regressions (`est_df`) could, due to its size, not be uploaded to GitHub. It will be reproduced if you follow the order of execution explained in the following section.
 
-For a detailed description of all data sources used, see the section "Data" in the Appendix (XXX).
+For a detailed description of all data sources used, see the section "Data" in the [Appendix](https://github.com/binste/chicago_safepassage_evaluation/blob/master/reports/appendix/Appendix.pdf).
 
 ## Order of execution
 To reconstruct the results starting out from the raw data, run all notebooks in the `notebooks` folders in the order of their numbering. No other scripts have to be run apart from the notebooks. The `src` folder contains scripts with only functions, which are imported by the notebooks.
@@ -272,6 +272,24 @@ As the analysis notebooks are probably of the most interest (they produce the ma
 | `1.0-binste-analyze-crime-results-census-block-level.ipynb` | Replicates Figure 3, Figure A.2, Table 1, and Table 10 (column 3 and 7) from McMillen et al. (2017) and compares them to the originals. The notebook also produces additional figures for the website. [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/binste/chicago_safepassage_evaluation/master?filepath=notebooks%2F5_analysis%2F1.0-binste-analyze-crime-results-census-block-level.ipynb) [![nbviewer](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github/binste/chicago_safepassage_evaluation/blob/master/notebooks/5_analysis/1.0-binste-analyze-crime-results-census-block-level.ipynb)|
 
 > **Tip**: To view static versions of the Jupyter notebooks in your browser, you can paste their URL into [Jupyter nbviewer](http://nbviewer.jupyter.org/).
+
+## How to run it
+If you are not sure how to set up the software specified in `environment.yml` to rerun the analysis, you could do the following:
+
+Download the repository as .zip file from GitHub and unpack it or clone it using:
+```bash
+git clone https://github.com/binste/chicago_safepassage_evaluation
+```
+and then install and activate the conda environment by running:
+```bash
+conda env create -f environment.yml
+conda activate speval
+```
+Now start a Jupyter notebook server in the root directory of the project:
+```bash
+jupyter notebook
+```
+See [Order of execution](#order-of-execution) on how to proceed.
 {% endcapture %}
 
 <details>
