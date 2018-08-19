@@ -23,13 +23,13 @@ At the end of this guide, you'll know how to set up your project in a way that o
 ## Tools
 This guide is primarily written for Python and R users, due to the fact that both languages and corresponding interpreters are open-source and available for free, which already greatly helps in making your research reproducible. They also have huge ecosystems of packages that provide great functionality, from data preparation over visualization to modeling. It certainly also helps that there is a vast sea of tutorials out there for both languages to answer almost all the questions you will ever have. In general, however, most of the tools and practices advertised in this guide also work with other commonly used (and some of them also available for free) languages for data analysis such as Stata, Julia, Scala, C++, or Matlab.
 
-If you want to use Python or R but are completely new to it at this point, I recommend that you first get up to speed with some of these [tutorials](/beginner_resources) before continuing with the guide.
+If you want to use Python or R but are completely new to it at this point, I recommend that you first get up to speed with some of these [tutorials](beginner_resources) before continuing with the guide.
 
 ## Showing is better than telling
 I find it always extremely helpful to see a concept demonstrated on a practical example. That is why I created a data analysis as an example research project and throughout the guide, I will use parts of it to directly show how the advertised tools and practices could be used in a real application.
 
 The project, using Python, estimates the effect of Chicago's Safe Passage program on crime counts. The program aims at keeping students safe on their way to school by posting civilian guards along various routes to the participating schools. In the spirit of reproducible research, the example analysis itself is a replication of parts of an existing paper called ["Do More Eyes on the Street Reduce Crime? Evidence from Chicago’s Safe Passage Program"](https://ignaciomsarmiento.github.io/assets/Safe_Passage_WP.pdf) by Daniel McMillen, Ignacio Sarmiento-Barbieri, and Ruchi Singh from June 22, 2017.
 
-If you are interested, you can find an introduction to the example project [here](/example_project/introduction){:target="_blank"}, however, it is not required for the rest of this guide.
+If you are interested, you can find an introduction to the example project [here](example_project/introduction){:target="_blank"}, however, it is not required for the rest of this guide.
 
 [Let's dive right into the guide and set up some tools.](./preparation/development_environment)
