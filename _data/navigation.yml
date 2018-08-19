@@ -29,7 +29,7 @@ guide:
     children:
       - title: "Beginner resources for Python and R"
         url: /beginner_resources
-      - title: "More on reproducible research"
+      - title: "Interesting stuff"
         url: /interesting_stuff
   - title: "Example project"
     url: /example_project/introduction
