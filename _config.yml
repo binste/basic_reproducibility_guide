@@ -24,3 +24,4 @@ defaults:
       toc_label: "On this page"
       toc_sticky: true
       share: true
+      author_profile: true
