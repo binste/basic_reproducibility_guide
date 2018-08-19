@@ -9,8 +9,6 @@ share: true
 toc: false
 classes: wide
 ---
-**ATTENTION**: This is a work in progress and subject to major changes.
-
 In 2016, the journal *Nature* published a [poll](https://www.nature.com/news/1-500-scientists-lift-the-lid-on-reproducibility-1.19970?WT.mc_id=SFB_NNEWS_1508_RHBox) of more than 1,500 researchers from various fields who were questioned on the topic of reproducibility in research. Over 70% stated that they have attempted to replicate another researcher's experiment -- without success. More than 50% could not even reproduce their own findings. When asked about the factors that lead to research being irreproducible, one of the top reasons stated was the lack of availability of the methods and code used, with more than 80% stating that this always, often, or at least sometimes contributes to irreproducibility. Focusing on exactly this factor, this guide will teach you the basic tools and practices necessary to make the data analysis component of your next research project reproducible, both for you and for others.
 
 You may ask yourself, is this really necessary for me? Is it really *that* important to focus on reproducibility in this specific thesis/dissertation/paper? Sure, not all of our research ends up in a reproducibility study in *Nature*. Maybe you think your research most likely won't be used and reproduced by other researchers anyway, so why bother reading on to the next page? The answer is simple: Reproducibility is not just a standard to which we hold science's greatest and most important discoveries. It is a foundation of scientific research itself:
