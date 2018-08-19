@@ -9,61 +9,11 @@ header:
 {% include toc title="On this page" %}
 There is one last thing I want to talk about, which is how to tie what we have looked at so far together in a readme file. The readme file will be the entry point for visitors to your project on GitHub. We will use it to explain what is contained in the repository and how this can be used to reproduce the results. You can write the readme file as a markdown (.md) or text (.txt) file, and it will be automatically detected by GitHub and displayed when someone visits your repository. In the following, I'll talk about what sections to include and what they should contain.
 
-{% capture readme-example %}
-## Overview
-This repository contains an example project for [A Basic Guide to Reproducible Research](https://binste.github.io/basic_reproducibility_guide/). It is an analysis of the effect of Chicago's Safe Passage program on crime counts. The program aims at keeping students safe on their way to school by posting civilian guards along various routes to the participating schools. The empirical approach chosen for the analysis follows one of the specifications in the working paper ["Do More Eyes on the Street Reduce Crime? Evidence from Chicago’s Safe Passage Program"](https://ignaciomsarmiento.github.io/assets/Safe_Passage_WP.pdf) by Daniel McMillen, Ignacio Sarmiento-Barbieri, and Ruchi Singh from June 22, 2017, and is an attempt to replicate their findings. For more information on the replication, as well as an introduction on the topic and a summary of the analysis and the results, see the corresponding [website](https://binste.github.io/basic_reproducibility_guide/example_project/introduction).
-
-This policy evaluation is part of my master thesis (2018) at the University of Zurich under the supervision of [Prof. Pietro Biroli](https://sites.google.com/site/pietrobiroli/home).
-
-## Software environment
-The data preparation was done in Python using Jupyter notebooks. R was used for the estimation of the Poisson regression. Details on the exact versions as well as additional packages can be found in the [`environment.yml`](environment.yml) file, which can also be used to recreate the conda environment used to create this analysis. As an operating system, macOS High Sierra 10.13.5 was used.
-
-> **Note**: This repository is [repo2docker](https://github.com/jupyter/repo2docker) compatible.
-
-## Hardware
-The analysis was developed on a 3.1 GHz Intel Core i5 with 16 GB RAM. However, a reproduction of the results was tested and worked with only XXX GB RAM in a Docker container (see [this section](#run-it-in-a-docker-container) for details).
-
-## Data
-With the exception of the crime dataset, all raw data files are provided under `data/raw`. The crime dataset is over 1.5 GB and could therefore not be hosted on GitHub. However, the notebook in the folder `0_download_data` will by default download it for you and put it in the correct folder. The information on crimes should not change much for the years used in this analysis and therefore a download from the original source should work.
-
-Some of the processed datasets are included. However, the dataset used to estimate the Poisson regressions (`est_df`) could, due to its size, not be uploaded to GitHub. It will be reproduced if you follow the order of execution explained in the following section.
-
-For a detailed description of all data sources used, see the section "Data" in the Appendix (XXX).
-
-## Order of execution
-To reconstruct the results starting out from the raw data, run all notebooks in the `notebooks` folders in order of their numbering. No other scripts have to be run apart from the notebooks. The `src` folder does contain scripts with only functions, which are imported by the notebooks.
-
-Should you want to run the whole pipeline with one command you can do this using the Python script `run_ipynb.py` which resides in the root folder of the project:
-```bash
-python run_ipynb.py 0_download_data 1_prepare_data 2_set_up_crime_database 3_match_datasets 4_combine_for_analysis 5_analysis
-```
-Note however, that this will not give you much of an indication on the progress of the computations, you'll only see the name of the notebook currently processed. This can take up to multiple hours, depending on your hardware.
-
-## Analysis notebooks
-As the analysis notebooks are probably of the most interest, as they produce the main figures and results, the main two are briefly described in the following. They can be found in the folder `notebooks/5_analysis`.
-
-| Notebook | Description |
-| -------- | ----------- |
-| `0.0-binste-estimation-poisson.ipynb` | Estimates all the Poisson regressions for both violent and property crimes and saves models as well as results into the folder `model`. [![nbviewer](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github/binste/chicago_safepassage_evaluation/blob/master/notebooks/5_analysis/0.0-binste-estimation-poisson.ipynb)|
-| `1.0-binste-analyze-crime-results-census-block-level.ipynb` | Replicates Figure 3, Figure A.2, Table 1, and Table 10 (column 3 and 7) from McMillen et al. (2017) and compares them to the originals. The notebook also produces additional figures for the website. [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/binste/chicago_safepassage_evaluation/master?filepath=notebooks%2F5_analysis%2F1.0-binste-analyze-crime-results-census-block-level.ipynb) [![nbviewer](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github/binste/chicago_safepassage_evaluation/blob/master/notebooks/5_analysis/1.0-binste-analyze-crime-results-census-block-level.ipynb)|
-
-> **Tip**: To view static versions of the Jupyter notebooks in your browser, you can paste their URL into [Jupyter nbviewer](http://nbviewer.jupyter.org/).
-{% endcapture %}
-
-<details>
-<summary style="cursor:pointer">Show readme file of example project</summary>
-<small>
-<div style="background-color:#eef7fa">
-{{ readme-example | markdownify }}
-</div>
-</small>
-</details>
-
 ### Overview
-At the top of the readme file, include a brief description of the project and its goals. You should not go into detail here on the methods and results used (ideally, you have done this written down in some other place that you can link to now, like an academic paper, website, blog post, Jupyter notebook, etc. This section should simply provide some context and refer to the main written part of the research project.
+At the top of the readme file, include a brief description of the project and its goals. You should not go into detail here on the methods and results used (ideally, you have written this down in some other place that you can link to now, like an academic paper, website, blog post, Jupyter notebook, etc. This section should simply provide some context and refer to the main written part of the research project.
 
 ### Software environment
-To rerun your code and reproduce the results, others need to know what software you used (and the respective version numbers). You can specify this directly in the readme file in form of a list or table, but there also exists a less tedious way. If you used the package manager conda and created a new environment for your project, you can automatically create an environment file which contains detailed information on the R or Python version used as well as on all additional packages.
+To rerun your code and reproduce the results, others need to know what software you used (and the respective version numbers). You can specify this directly in the readme file in the form of a list or table, but there also exists a less tedious way. If you used the package manager conda and created a new environment for your project, as recommended in the section on the development environment, you can automatically create an environment file which contains detailed information on the R or Python version used as well as on all additional packages.
 
 First, activate the environment as usual, then enter the following command in your terminal:
 ```bash
@@ -281,4 +231,59 @@ if __name__ == '__main__':
   </small>
 </details><br />
 
-You have reached the end of this guide and I hope it was of help to you. If you want to learn more about good practices, useful tools and reproducible research in general, head over [to this list](interesting_stuff), which contains various blog posts, tutorials, and papers on the topic. Else, you could also take a closer look at the [example project](example_project/introduction) and [the code and data behind it](https://github.com/binste/chicago_safepassage_evaluation/).
+To see how this could look like, check out the readme file of the example project in the following:
+
+{% capture readme-example %}
+## Overview
+This repository contains an example project for [A Basic Guide to Reproducible Research](https://binste.github.io/basic_reproducibility_guide/). It is an analysis of the effect of Chicago's Safe Passage program on crime counts. The program aims at keeping students safe on their way to school by posting civilian guards along various routes to the participating schools. The empirical approach chosen for the analysis follows one of the specifications in the working paper ["Do More Eyes on the Street Reduce Crime? Evidence from Chicago’s Safe Passage Program"](https://ignaciomsarmiento.github.io/assets/Safe_Passage_WP.pdf) by Daniel McMillen, Ignacio Sarmiento-Barbieri, and Ruchi Singh from June 22, 2017. The analysis aims to replicate some of their results. For more information on the replication, as well as an introduction on the topic and a summary of the analysis and the results, see the corresponding [website](https://binste.github.io/basic_reproducibility_guide/example_project/introduction).
+
+This policy evaluation is part of my master thesis (2018) at the University of Zurich under the supervision of [Prof. Pietro Biroli](https://sites.google.com/site/pietrobiroli/home).
+
+## Software environment
+The data preparation was done in Python using Jupyter notebooks. R was used for the estimation of the Poisson regression. Details on the exact versions as well as additional packages can be found in the [`environment.yml`](environment.yml) file, which can also be used to recreate the conda environment used to create this analysis. As an operating system, macOS High Sierra 10.13.5 was used.
+
+> **Note**: This repository is [repo2docker](https://github.com/jupyter/repo2docker) compatible.
+
+## Hardware
+The analysis was developed on a 3.1 GHz Intel Core i5 with 16 GB RAM. However, a reproduction of the results was tested and worked with only XXX GB RAM in a Docker container.
+
+## Data
+With the exception of the crime dataset, all raw data files are provided under `data/raw`. The crime dataset is over 1.5 GB and could therefore not be hosted on GitHub. However, the notebook in the folder `0_download_data` will by default download it for you and put it in the correct folder. The information on crimes should not change much for the years used in this analysis, and a download from the original source should work.
+
+Some of the processed datasets are included. However, the dataset used to estimate the Poisson regressions (`est_df`) could, due to its size, not be uploaded to GitHub. It will be reproduced if you follow the order of execution explained in the following section.
+
+For a detailed description of all data sources used, see the section "Data" in the Appendix (XXX).
+
+## Order of execution
+To reconstruct the results starting out from the raw data, run all notebooks in the `notebooks` folders in the order of their numbering. No other scripts have to be run apart from the notebooks. The `src` folder contains scripts with only functions, which are imported by the notebooks.
+
+Should you want to run the whole pipeline with one command, you can do this using the Python script `run_ipynb.py` which resides in the root folder of the project:
+```bash
+python run_ipynb.py 0_download_data 1_prepare_data 2_set_up_crime_database 3_match_datasets 4_combine_for_analysis 5_analysis
+```
+Note however, that this will not give you much of an indication on the progress of the computations, you'll only see the name of the notebook currently processed. This can take up to multiple hours, depending on your hardware.
+
+## Analysis notebooks
+As the analysis notebooks are probably of the most interest (they produce the main figures and results), the main two are briefly described in the following. They can be found in the folder `notebooks/5_analysis`.
+
+| Notebook | Description |
+| -------- | ----------- |
+| `0.0-binste-estimation-poisson.ipynb` | Estimates all the Poisson regressions for both violent and property crimes and saves models as well as results into the folder `model`. [![nbviewer](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github/binste/chicago_safepassage_evaluation/blob/master/notebooks/5_analysis/0.0-binste-estimation-poisson.ipynb)|
+| `1.0-binste-analyze-crime-results-census-block-level.ipynb` | Replicates Figure 3, Figure A.2, Table 1, and Table 10 (column 3 and 7) from McMillen et al. (2017) and compares them to the originals. The notebook also produces additional figures for the website. [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/binste/chicago_safepassage_evaluation/master?filepath=notebooks%2F5_analysis%2F1.0-binste-analyze-crime-results-census-block-level.ipynb) [![nbviewer](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github/binste/chicago_safepassage_evaluation/blob/master/notebooks/5_analysis/1.0-binste-analyze-crime-results-census-block-level.ipynb)|
+
+> **Tip**: To view static versions of the Jupyter notebooks in your browser, you can paste their URL into [Jupyter nbviewer](http://nbviewer.jupyter.org/).
+{% endcapture %}
+
+<details>
+<summary style="cursor:pointer">Show readme file of example project</summary>
+<small>
+<div style="background-color:#eef7fa">
+{{ readme-example | markdownify }}
+</div>
+</small>
+</details><br />
+
+>**Note**: If you are interested in what the two tools mybinder and repo2docker, which are mentioned in the example readme file, are all about, check out [this short summary](mybinder_repo2docker).
+{: .notice}
+
+You have reached the end of this guide, and I hope it was of help to you. If you want to learn more about good practices, useful tools, and reproducible research in general, head over [to this list](further_readings), which contains various blog posts, tutorials, and papers on the topic. If you're interested, take a closer look at the [example project](example_project/introduction) and [the code and data behind it](https://github.com/binste/chicago_safepassage_evaluation/) to see how all of this could be implemented in a research project in practice.
