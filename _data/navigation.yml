@@ -15,8 +15,8 @@ guide:
     children:
       - title: "Documentation"
         url: /during_the_analysis/documentation
-      - title: "Other stuff"
-        url: /during_the_analysis/other_stuff
+      - title: "Coding practices"
+        url: /during_the_analysis/coding_practices
   - title: "Sharing your work"
     url: /sharing_your_work/license
     children:
@@ -29,8 +29,10 @@ guide:
     children:
       - title: "Beginner resources for Python and R"
         url: /beginner_resources
-      - title: "Interesting stuff"
-        url: /interesting_stuff
+      - title: "Mybinder and repo2docker"
+        url: /mybinder_repo2docker
+      - title: "Further readings"
+        url: /further_readings
   - title: "Example project"
     url: /example_project/introduction
     children:
